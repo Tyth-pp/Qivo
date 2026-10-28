@@ -1,0 +1,1982 @@
+{
+  "capturedAt": "2026-10-26T21:41:46",
+  "products": [
+    {
+      "id": 40,
+      "name": "壁挂阅读灯",
+      "description": "紧凑壁座与可调整灯头，适合床头定向照明。",
+      "price": 129.0,
+      "originalPrice": null,
+      "stock": 0,
+      "status": 1,
+      "categoryId": 7,
+      "mainImage": "/upload/products/lighting/qivo-wall-reading-lamp.webp",
+      "sales": 0,
+      "specMode": "SINGLE",
+      "specDefinition": "[]",
+      "maxPrice": 129.0,
+      "totalStock": 0,
+      "defaultSkuId": 55,
+      "skus": null,
+      "specDefinitions": null,
+      "createTime": "2026-10-26T20:45:41",
+      "updateTime": "2026-10-26T20:45:41",
+      "previewImage": "assets/qivo-catalog-images/lighting/qivo-wall-reading-lamp.webp",
+      "categoryKey": "lighting",
+      "definitions": [],
+      "variants": [
+        {
+          "id": 55,
+          "productId": 40,
+          "skuCode": "QIVO-CATALOG-V2-WALL-READING-LAMP-DEFAULT",
+          "specKey": "DEFAULT",
+          "specValues": "[]",
+          "price": 129.0,
+          "originalPrice": null,
+          "stock": 0,
+          "status": "ENABLED",
+          "image": "/upload/products/lighting/qivo-wall-reading-lamp.webp",
+          "createTime": "2026-10-26T20:45:41",
+          "updateTime": "2026-10-26T20:45:41"
+        }
+      ],
+      "reviews": [],
+      "reviewTotal": 0
+    },
+    {
+      "id": 39,
+      "name": "长条护眼桌灯",
+      "description": "细长横向灯头与简洁灯臂，适合宽桌面摆放。",
+      "price": 179.0,
+      "originalPrice": null,
+      "stock": 16,
+      "status": 1,
+      "categoryId": 7,
+      "mainImage": "/upload/products/lighting/qivo-linear-desk-lamp.webp",
+      "sales": 0,
+      "specMode": "SINGLE",
+      "specDefinition": "[]",
+      "maxPrice": 179.0,
+      "totalStock": 16,
+      "defaultSkuId": 54,
+      "skus": null,
+      "specDefinitions": null,
+      "createTime": "2026-10-26T20:45:41",
+      "updateTime": "2026-10-26T20:45:41",
+      "previewImage": "assets/qivo-catalog-images/lighting/qivo-linear-desk-lamp.webp",
+      "categoryKey": "lighting",
+      "definitions": [],
+      "variants": [
+        {
+          "id": 54,
+          "productId": 39,
+          "skuCode": "QIVO-CATALOG-V2-LINEAR-DESK-LAMP-DEFAULT",
+          "specKey": "DEFAULT",
+          "specValues": "[]",
+          "price": 179.0,
+          "originalPrice": null,
+          "stock": 16,
+          "status": "ENABLED",
+          "image": "/upload/products/lighting/qivo-linear-desk-lamp.webp",
+          "createTime": "2026-10-26T20:45:41",
+          "updateTime": "2026-10-26T20:45:41"
+        }
+      ],
+      "reviews": [],
+      "reviewTotal": 0
+    },
+    {
+      "id": 38,
+      "name": "夹式阅读灯",
+      "description": "夹式底座便于固定于桌边，细长灯颈可调整方向。",
+      "price": 69.0,
+      "originalPrice": null,
+      "stock": 25,
+      "status": 1,
+      "categoryId": 7,
+      "mainImage": "/upload/products/lighting/qivo-clip-reading-lamp.webp",
+      "sales": 0,
+      "specMode": "SINGLE",
+      "specDefinition": "[]",
+      "maxPrice": 69.0,
+      "totalStock": 25,
+      "defaultSkuId": 53,
+      "skus": null,
+      "specDefinitions": null,
+      "createTime": "2026-10-26T20:45:41",
+      "updateTime": "2026-10-26T20:45:41",
+      "previewImage": "assets/qivo-catalog-images/lighting/qivo-clip-reading-lamp.webp",
+      "categoryKey": "lighting",
+      "definitions": [],
+      "variants": [
+        {
+          "id": 53,
+          "productId": 38,
+          "skuCode": "QIVO-CATALOG-V2-CLIP-READING-LAMP-DEFAULT",
+          "specKey": "DEFAULT",
+          "specValues": "[]",
+          "price": 69.0,
+          "originalPrice": null,
+          "stock": 25,
+          "status": "ENABLED",
+          "image": "/upload/products/lighting/qivo-clip-reading-lamp.webp",
+          "createTime": "2026-10-26T20:45:41",
+          "updateTime": "2026-10-26T20:45:41"
+        }
+      ],
+      "reviews": [],
+      "reviewTotal": 0
+    },
+    {
+      "id": 37,
+      "name": "便携小夜灯",
+      "description": "紧凑灯身与提手，便于在不同空间移动摆放。",
+      "price": 79.0,
+      "originalPrice": null,
+      "stock": 52,
+      "status": 1,
+      "categoryId": 7,
+      "mainImage": "/upload/products/lighting/qivo-portable-night-light.webp",
+      "sales": 0,
+      "specMode": "MULTI",
+      "specDefinition": "[{\"id\": \"color\", \"name\": \"颜色\", \"values\": [{\"id\": \"white\", \"name\": \"米白\"}, {\"id\": \"blue\", \"name\": \"雾蓝\"}]}]",
+      "maxPrice": 89.0,
+      "totalStock": 52,
+      "defaultSkuId": null,
+      "skus": null,
+      "specDefinitions": null,
+      "createTime": "2026-10-26T20:45:41",
+      "updateTime": "2026-10-26T20:45:41",
+      "previewImage": "assets/qivo-catalog-images/lighting/qivo-portable-night-light.webp",
+      "categoryKey": "lighting",
+      "definitions": [
+        {
+          "id": "color",
+          "name": "颜色",
+          "values": [
+            {
+              "id": "white",
+              "name": "米白"
+            },
+            {
+              "id": "blue",
+              "name": "雾蓝"
+            }
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": 51,
+          "productId": 37,
+          "skuCode": "QIVO-CATALOG-V2-PORTABLE-NIGHT-LIGHT-WHITE",
+          "specKey": "color=white",
+          "specValues": "[{\"specId\": \"color\", \"valueId\": \"white\"}]",
+          "price": 79.0,
+          "originalPrice": null,
+          "stock": 26,
+          "status": "ENABLED",
+          "image": "/upload/products/lighting/qivo-portable-night-light.webp",
+          "createTime": "2026-10-26T20:45:41",
+          "updateTime": "2026-10-26T20:45:41"
+        },
+        {
+          "id": 52,
+          "productId": 37,
+          "skuCode": "QIVO-CATALOG-V2-PORTABLE-NIGHT-LIGHT-BLUE",
+          "specKey": "color=blue",
+          "specValues": "[{\"specId\": \"color\", \"valueId\": \"blue\"}]",
+          "price": 89.0,
+          "originalPrice": null,
+          "stock": 26,
+          "status": "ENABLED",
+          "image": "/upload/products/lighting/qivo-portable-night-light.webp",
+          "createTime": "2026-10-26T20:45:41",
+          "updateTime": "2026-10-26T20:45:41"
+        }
+      ],
+      "reviews": [],
+      "reviewTotal": 0
+    },
+    {
+      "id": 36,
+      "name": "软管阅读台灯",
+      "description": "可弯曲灯颈便于调整方向，适合桌面阅读。",
+      "price": 89.0,
+      "originalPrice": null,
+      "stock": 30,
+      "status": 1,
+      "categoryId": 7,
+      "mainImage": "/upload/products/lighting/qivo-gooseneck-reading-lamp.webp",
+      "sales": 0,
+      "specMode": "SINGLE",
+      "specDefinition": "[]",
+      "maxPrice": 89.0,
+      "totalStock": 30,
+      "defaultSkuId": 50,
+      "skus": null,
+      "specDefinitions": null,
+      "createTime": "2026-10-26T20:45:41",
+      "updateTime": "2026-10-26T20:45:41",
+      "previewImage": "assets/qivo-catalog-images/lighting/qivo-gooseneck-reading-lamp.webp",
+      "categoryKey": "lighting",
+      "definitions": [],
+      "variants": [
+        {
+          "id": 50,
+          "productId": 36,
+          "skuCode": "QIVO-CATALOG-V2-GOOSENECK-READING-LAMP-DEFAULT",
+          "specKey": "DEFAULT",
+          "specValues": "[]",
+          "price": 89.0,
+          "originalPrice": null,
+          "stock": 30,
+          "status": "ENABLED",
+          "image": "/upload/products/lighting/qivo-gooseneck-reading-lamp.webp",
+          "createTime": "2026-10-26T20:45:41",
+          "updateTime": "2026-10-26T20:45:41"
+        }
+      ],
+      "reviews": [],
+      "reviewTotal": 0
+    },
+    {
+      "id": 35,
+      "name": "蘑菇造型桌灯",
+      "description": "圆润灯罩搭配稳固灯座，适合床头与边桌。",
+      "price": 159.0,
+      "originalPrice": null,
+      "stock": 40,
+      "status": 1,
+      "categoryId": 7,
+      "mainImage": "/upload/products/lighting/qivo-mushroom-table-lamp.webp",
+      "sales": 0,
+      "specMode": "MULTI",
+      "specDefinition": "[{\"id\": \"color\", \"name\": \"颜色\", \"values\": [{\"id\": \"cream\", \"name\": \"奶白\"}, {\"id\": \"orange\", \"name\": \"陶橙\"}]}]",
+      "maxPrice": 169.0,
+      "totalStock": 40,
+      "defaultSkuId": null,
+      "skus": null,
+      "specDefinitions": null,
+      "createTime": "2026-10-26T20:45:41",
+      "updateTime": "2026-10-26T20:45:41",
+      "previewImage": "assets/qivo-catalog-images/lighting/qivo-mushroom-table-lamp.webp",
+      "categoryKey": "lighting",
+      "definitions": [
+        {
+          "id": "color",
+          "name": "颜色",
+          "values": [
+            {
+              "id": "cream",
+              "name": "奶白"
+            },
+            {
+              "id": "orange",
+              "name": "陶橙"
+            }
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": 48,
+          "productId": 35,
+          "skuCode": "QIVO-CATALOG-V2-MUSHROOM-TABLE-LAMP-CREAM",
+          "specKey": "color=cream",
+          "specValues": "[{\"specId\": \"color\", \"valueId\": \"cream\"}]",
+          "price": 159.0,
+          "originalPrice": null,
+          "stock": 20,
+          "status": "ENABLED",
+          "image": "/upload/products/lighting/qivo-mushroom-table-lamp.webp",
+          "createTime": "2026-10-26T20:45:41",
+          "updateTime": "2026-10-26T20:45:41"
+        },
+        {
+          "id": 49,
+          "productId": 35,
+          "skuCode": "QIVO-CATALOG-V2-MUSHROOM-TABLE-LAMP-ORANGE",
+          "specKey": "color=orange",
+          "specValues": "[{\"specId\": \"color\", \"valueId\": \"orange\"}]",
+          "price": 169.0,
+          "originalPrice": null,
+          "stock": 20,
+          "status": "ENABLED",
+          "image": "/upload/products/lighting/qivo-mushroom-table-lamp.webp",
+          "createTime": "2026-10-26T20:45:41",
+          "updateTime": "2026-10-26T20:45:41"
+        }
+      ],
+      "reviews": [],
+      "reviewTotal": 0
+    },
+    {
+      "id": 34,
+      "name": "屏幕挂灯",
+      "description": "横向灯体配悬挂支架，适合显示器上方摆放。",
+      "price": 199.0,
+      "originalPrice": null,
+      "stock": 36,
+      "status": 1,
+      "categoryId": 7,
+      "mainImage": "/upload/products/lighting/qivo-monitor-light-bar.webp",
+      "sales": 0,
+      "specMode": "MULTI",
+      "specDefinition": "[{\"id\": \"finish\", \"name\": \"外观\", \"values\": [{\"id\": \"black\", \"name\": \"曜黑\"}, {\"id\": \"silver\", \"name\": \"银白\"}]}]",
+      "maxPrice": 209.0,
+      "totalStock": 36,
+      "defaultSkuId": null,
+      "skus": null,
+      "specDefinitions": null,
+      "createTime": "2026-10-26T20:45:41",
+      "updateTime": "2026-10-26T20:45:41",
+      "previewImage": "assets/qivo-catalog-images/lighting/qivo-monitor-light-bar.webp",
+      "categoryKey": "lighting",
+      "definitions": [
+        {
+          "id": "finish",
+          "name": "外观",
+          "values": [
+            {
+              "id": "black",
+              "name": "曜黑"
+            },
+            {
+              "id": "silver",
+              "name": "银白"
+            }
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": 46,
+          "productId": 34,
+          "skuCode": "QIVO-CATALOG-V2-MONITOR-LIGHT-BAR-BLACK",
+          "specKey": "finish=black",
+          "specValues": "[{\"specId\": \"finish\", \"valueId\": \"black\"}]",
+          "price": 199.0,
+          "originalPrice": null,
+          "stock": 18,
+          "status": "ENABLED",
+          "image": "/upload/products/lighting/qivo-monitor-light-bar.webp",
+          "createTime": "2026-10-26T20:45:41",
+          "updateTime": "2026-10-26T20:45:41"
+        },
+        {
+          "id": 47,
+          "productId": 34,
+          "skuCode": "QIVO-CATALOG-V2-MONITOR-LIGHT-BAR-SILVER",
+          "specKey": "finish=silver",
+          "specValues": "[{\"specId\": \"finish\", \"valueId\": \"silver\"}]",
+          "price": 209.0,
+          "originalPrice": null,
+          "stock": 18,
+          "status": "ENABLED",
+          "image": "/upload/products/lighting/qivo-monitor-light-bar.webp",
+          "createTime": "2026-10-26T20:45:41",
+          "updateTime": "2026-10-26T20:45:41"
+        }
+      ],
+      "reviews": [],
+      "reviewTotal": 0
+    },
+    {
+      "id": 32,
+      "name": "桌面电线收纳盒",
+      "description": "带出线口的盖式盒身，用于整理插排和线材。",
+      "price": 59.0,
+      "originalPrice": null,
+      "stock": 0,
+      "status": 1,
+      "categoryId": 4,
+      "mainImage": "/upload/products/storage/qivo-cable-storage-box.webp",
+      "sales": 0,
+      "specMode": "MULTI",
+      "specDefinition": "[{\"id\": \"size\", \"name\": \"尺寸\", \"values\": [{\"id\": \"standard\", \"name\": \"标准款\"}, {\"id\": \"large\", \"name\": \"加大款\"}]}]",
+      "maxPrice": 69.0,
+      "totalStock": 0,
+      "defaultSkuId": null,
+      "skus": null,
+      "specDefinitions": null,
+      "createTime": "2026-10-26T20:45:41",
+      "updateTime": "2026-10-26T20:45:41",
+      "previewImage": "assets/qivo-catalog-images/storage/qivo-cable-storage-box.webp",
+      "categoryKey": "storage",
+      "definitions": [
+        {
+          "id": "size",
+          "name": "尺寸",
+          "values": [
+            {
+              "id": "standard",
+              "name": "标准款"
+            },
+            {
+              "id": "large",
+              "name": "加大款"
+            }
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": 43,
+          "productId": 32,
+          "skuCode": "QIVO-CATALOG-V2-CABLE-STORAGE-BOX-STANDARD",
+          "specKey": "size=standard",
+          "specValues": "[{\"specId\": \"size\", \"valueId\": \"standard\"}]",
+          "price": 59.0,
+          "originalPrice": null,
+          "stock": 0,
+          "status": "ENABLED",
+          "image": "/upload/products/storage/qivo-cable-storage-box.webp",
+          "createTime": "2026-10-26T20:45:41",
+          "updateTime": "2026-10-26T20:45:41"
+        },
+        {
+          "id": 44,
+          "productId": 32,
+          "skuCode": "QIVO-CATALOG-V2-CABLE-STORAGE-BOX-LARGE",
+          "specKey": "size=large",
+          "specValues": "[{\"specId\": \"size\", \"valueId\": \"large\"}]",
+          "price": 69.0,
+          "originalPrice": null,
+          "stock": 0,
+          "status": "ENABLED",
+          "image": "/upload/products/storage/qivo-cable-storage-box.webp",
+          "createTime": "2026-10-26T20:45:41",
+          "updateTime": "2026-10-26T20:45:41"
+        }
+      ],
+      "reviews": [],
+      "reviewTotal": 0
+    },
+    {
+      "id": 31,
+      "name": "木质文件托盘",
+      "description": "平整托盘集中摆放纸张与笔记，便于桌面归整。",
+      "price": 79.0,
+      "originalPrice": null,
+      "stock": 22,
+      "status": 1,
+      "categoryId": 4,
+      "mainImage": "/upload/products/storage/qivo-wood-document-tray.webp",
+      "sales": 0,
+      "specMode": "SINGLE",
+      "specDefinition": "[]",
+      "maxPrice": 79.0,
+      "totalStock": 22,
+      "defaultSkuId": 42,
+      "skus": null,
+      "specDefinitions": null,
+      "createTime": "2026-10-26T20:45:41",
+      "updateTime": "2026-10-26T20:45:41",
+      "previewImage": "assets/qivo-catalog-images/storage/qivo-wood-document-tray.webp",
+      "categoryKey": "storage",
+      "definitions": [],
+      "variants": [
+        {
+          "id": 42,
+          "productId": 31,
+          "skuCode": "QIVO-CATALOG-V2-WOOD-DOCUMENT-TRAY-DEFAULT",
+          "specKey": "DEFAULT",
+          "specValues": "[]",
+          "price": 79.0,
+          "originalPrice": null,
+          "stock": 22,
+          "status": "ENABLED",
+          "image": "/upload/products/storage/qivo-wood-document-tray.webp",
+          "createTime": "2026-10-26T20:45:41",
+          "updateTime": "2026-10-26T20:45:41"
+        }
+      ],
+      "reviews": [],
+      "reviewTotal": 0
+    },
+    {
+      "id": 30,
+      "name": "透明抽屉分隔盒",
+      "description": "透明盒身便于查看内容，多格结构适合分类摆放。",
+      "price": 49.0,
+      "originalPrice": null,
+      "stock": 36,
+      "status": 1,
+      "categoryId": 4,
+      "mainImage": "/upload/products/storage/qivo-drawer-organizer.webp",
+      "sales": 0,
+      "specMode": "SINGLE",
+      "specDefinition": "[]",
+      "maxPrice": 49.0,
+      "totalStock": 36,
+      "defaultSkuId": 41,
+      "skus": null,
+      "specDefinitions": null,
+      "createTime": "2026-10-26T20:45:41",
+      "updateTime": "2026-10-26T20:45:41",
+      "previewImage": "assets/qivo-catalog-images/storage/qivo-drawer-organizer.webp",
+      "categoryKey": "storage",
+      "definitions": [],
+      "variants": [
+        {
+          "id": 41,
+          "productId": 30,
+          "skuCode": "QIVO-CATALOG-V2-DRAWER-ORGANIZER-DEFAULT",
+          "specKey": "DEFAULT",
+          "specValues": "[]",
+          "price": 49.0,
+          "originalPrice": null,
+          "stock": 36,
+          "status": "ENABLED",
+          "image": "/upload/products/storage/qivo-drawer-organizer.webp",
+          "createTime": "2026-10-26T20:45:41",
+          "updateTime": "2026-10-26T20:45:41"
+        }
+      ],
+      "reviews": [],
+      "reviewTotal": 0
+    },
+    {
+      "id": 29,
+      "name": "毛毡桌面托盘",
+      "description": "柔软毡面收纳钥匙、耳机与桌面零碎小物。",
+      "price": 45.0,
+      "originalPrice": null,
+      "stock": 48,
+      "status": 1,
+      "categoryId": 4,
+      "mainImage": "/upload/products/storage/qivo-felt-tray.webp",
+      "sales": 0,
+      "specMode": "MULTI",
+      "specDefinition": "[{\"id\": \"size\", \"name\": \"尺寸\", \"values\": [{\"id\": \"standard\", \"name\": \"标准款\"}, {\"id\": \"large\", \"name\": \"加大款\"}]}]",
+      "maxPrice": 55.0,
+      "totalStock": 48,
+      "defaultSkuId": null,
+      "skus": null,
+      "specDefinitions": null,
+      "createTime": "2026-10-26T20:45:41",
+      "updateTime": "2026-10-26T20:45:41",
+      "previewImage": "assets/qivo-catalog-images/storage/qivo-felt-tray.webp",
+      "categoryKey": "storage",
+      "definitions": [
+        {
+          "id": "size",
+          "name": "尺寸",
+          "values": [
+            {
+              "id": "standard",
+              "name": "标准款"
+            },
+            {
+              "id": "large",
+              "name": "加大款"
+            }
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": 39,
+          "productId": 29,
+          "skuCode": "QIVO-CATALOG-V2-FELT-TRAY-STANDARD",
+          "specKey": "size=standard",
+          "specValues": "[{\"specId\": \"size\", \"valueId\": \"standard\"}]",
+          "price": 45.0,
+          "originalPrice": null,
+          "stock": 24,
+          "status": "ENABLED",
+          "image": "/upload/products/storage/qivo-felt-tray.webp",
+          "createTime": "2026-10-26T20:45:41",
+          "updateTime": "2026-10-26T20:45:41"
+        },
+        {
+          "id": 40,
+          "productId": 29,
+          "skuCode": "QIVO-CATALOG-V2-FELT-TRAY-LARGE",
+          "specKey": "size=large",
+          "specValues": "[{\"specId\": \"size\", \"valueId\": \"large\"}]",
+          "price": 55.0,
+          "originalPrice": null,
+          "stock": 24,
+          "status": "ENABLED",
+          "image": "/upload/products/storage/qivo-felt-tray.webp",
+          "createTime": "2026-10-26T20:45:41",
+          "updateTime": "2026-10-26T20:45:41"
+        }
+      ],
+      "reviews": [],
+      "reviewTotal": 0
+    },
+    {
+      "id": 28,
+      "name": "金属圆筒笔筒",
+      "description": "圆筒开口集中收纳笔具，保持常用物件随手可取。",
+      "price": 39.0,
+      "originalPrice": null,
+      "stock": 60,
+      "status": 1,
+      "categoryId": 4,
+      "mainImage": "/upload/products/storage/qivo-metal-pen-cup.webp",
+      "sales": 0,
+      "specMode": "MULTI",
+      "specDefinition": "[{\"id\": \"color\", \"name\": \"颜色\", \"values\": [{\"id\": \"gray\", \"name\": \"石墨灰\"}, {\"id\": \"silver\", \"name\": \"银白\"}]}]",
+      "maxPrice": 49.0,
+      "totalStock": 60,
+      "defaultSkuId": null,
+      "skus": null,
+      "specDefinitions": null,
+      "createTime": "2026-10-26T20:45:41",
+      "updateTime": "2026-10-26T20:45:41",
+      "previewImage": "assets/qivo-catalog-images/storage/qivo-metal-pen-cup.webp",
+      "categoryKey": "storage",
+      "definitions": [
+        {
+          "id": "color",
+          "name": "颜色",
+          "values": [
+            {
+              "id": "gray",
+              "name": "石墨灰"
+            },
+            {
+              "id": "silver",
+              "name": "银白"
+            }
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": 37,
+          "productId": 28,
+          "skuCode": "QIVO-CATALOG-V2-METAL-PEN-CUP-GRAY",
+          "specKey": "color=gray",
+          "specValues": "[{\"specId\": \"color\", \"valueId\": \"gray\"}]",
+          "price": 39.0,
+          "originalPrice": null,
+          "stock": 30,
+          "status": "ENABLED",
+          "image": "/upload/products/storage/qivo-metal-pen-cup.webp",
+          "createTime": "2026-10-26T20:45:41",
+          "updateTime": "2026-10-26T20:45:41"
+        },
+        {
+          "id": 38,
+          "productId": 28,
+          "skuCode": "QIVO-CATALOG-V2-METAL-PEN-CUP-SILVER",
+          "specKey": "color=silver",
+          "specValues": "[{\"specId\": \"color\", \"valueId\": \"silver\"}]",
+          "price": 49.0,
+          "originalPrice": null,
+          "stock": 30,
+          "status": "ENABLED",
+          "image": "/upload/products/storage/qivo-metal-pen-cup.webp",
+          "createTime": "2026-10-26T20:45:41",
+          "updateTime": "2026-10-26T20:45:41"
+        }
+      ],
+      "reviews": [],
+      "reviewTotal": 0
+    },
+    {
+      "id": 26,
+      "name": "轻量运动水杯",
+      "description": "轻量杯身搭配提环盖，便于外出携带。",
+      "price": 59.0,
+      "originalPrice": null,
+      "stock": 0,
+      "status": 1,
+      "categoryId": 6,
+      "mainImage": "/upload/products/drinkware/qivo-sports-water-bottle.webp",
+      "sales": 0,
+      "specMode": "SINGLE",
+      "specDefinition": "[]",
+      "maxPrice": 59.0,
+      "totalStock": 0,
+      "defaultSkuId": 35,
+      "skus": null,
+      "specDefinitions": null,
+      "createTime": "2026-10-26T20:45:41",
+      "updateTime": "2026-10-26T20:45:41",
+      "previewImage": "assets/qivo-catalog-images/drinkware/qivo-sports-water-bottle.webp",
+      "categoryKey": "drinkware",
+      "definitions": [],
+      "variants": [
+        {
+          "id": 35,
+          "productId": 26,
+          "skuCode": "QIVO-CATALOG-V2-SPORTS-WATER-BOTTLE-DEFAULT",
+          "specKey": "DEFAULT",
+          "specValues": "[]",
+          "price": 59.0,
+          "originalPrice": null,
+          "stock": 0,
+          "status": "ENABLED",
+          "image": "/upload/products/drinkware/qivo-sports-water-bottle.webp",
+          "createTime": "2026-10-26T20:45:41",
+          "updateTime": "2026-10-26T20:45:41"
+        }
+      ],
+      "reviews": [],
+      "reviewTotal": 0
+    },
+    {
+      "id": 25,
+      "name": "玻璃冷水壶",
+      "description": "细长壶嘴配简洁握把，适合桌面分饮。",
+      "price": 89.0,
+      "originalPrice": null,
+      "stock": 20,
+      "status": 1,
+      "categoryId": 6,
+      "mainImage": "/upload/products/drinkware/qivo-glass-carafe.webp",
+      "sales": 0,
+      "specMode": "SINGLE",
+      "specDefinition": "[]",
+      "maxPrice": 89.0,
+      "totalStock": 20,
+      "defaultSkuId": 34,
+      "skus": null,
+      "specDefinitions": null,
+      "createTime": "2026-10-26T20:45:41",
+      "updateTime": "2026-10-26T20:45:41",
+      "previewImage": "assets/qivo-catalog-images/drinkware/qivo-glass-carafe.webp",
+      "categoryKey": "drinkware",
+      "definitions": [],
+      "variants": [
+        {
+          "id": 34,
+          "productId": 25,
+          "skuCode": "QIVO-CATALOG-V2-GLASS-CARAFE-DEFAULT",
+          "specKey": "DEFAULT",
+          "specValues": "[]",
+          "price": 89.0,
+          "originalPrice": null,
+          "stock": 20,
+          "status": "ENABLED",
+          "image": "/upload/products/drinkware/qivo-glass-carafe.webp",
+          "createTime": "2026-10-26T20:45:41",
+          "updateTime": "2026-10-26T20:45:41"
+        }
+      ],
+      "reviews": [],
+      "reviewTotal": 0
+    },
+    {
+      "id": 24,
+      "name": "随行咖啡杯",
+      "description": "带盖杯身与防滑握持区域，方便日常随行。",
+      "price": 79.0,
+      "originalPrice": null,
+      "stock": 56,
+      "status": 1,
+      "categoryId": 6,
+      "mainImage": "/upload/products/drinkware/qivo-travel-coffee-cup.webp",
+      "sales": 0,
+      "specMode": "MULTI",
+      "specDefinition": "[{\"id\": \"capacity\", \"name\": \"容量\", \"values\": [{\"id\": \"small\", \"name\": \"350 毫升\"}, {\"id\": \"large\", \"name\": \"450 毫升\"}]}]",
+      "maxPrice": 89.0,
+      "totalStock": 56,
+      "defaultSkuId": null,
+      "skus": null,
+      "specDefinitions": null,
+      "createTime": "2026-10-26T20:45:41",
+      "updateTime": "2026-10-26T20:45:41",
+      "previewImage": "assets/qivo-catalog-images/drinkware/qivo-travel-coffee-cup.webp",
+      "categoryKey": "drinkware",
+      "definitions": [
+        {
+          "id": "capacity",
+          "name": "容量",
+          "values": [
+            {
+              "id": "small",
+              "name": "350 毫升"
+            },
+            {
+              "id": "large",
+              "name": "450 毫升"
+            }
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": 32,
+          "productId": 24,
+          "skuCode": "QIVO-CATALOG-V2-TRAVEL-COFFEE-CUP-SMALL",
+          "specKey": "capacity=small",
+          "specValues": "[{\"specId\": \"capacity\", \"valueId\": \"small\"}]",
+          "price": 79.0,
+          "originalPrice": null,
+          "stock": 28,
+          "status": "ENABLED",
+          "image": "/upload/products/drinkware/qivo-travel-coffee-cup.webp",
+          "createTime": "2026-10-26T20:45:41",
+          "updateTime": "2026-10-26T20:45:41"
+        },
+        {
+          "id": 33,
+          "productId": 24,
+          "skuCode": "QIVO-CATALOG-V2-TRAVEL-COFFEE-CUP-LARGE",
+          "specKey": "capacity=large",
+          "specValues": "[{\"specId\": \"capacity\", \"valueId\": \"large\"}]",
+          "price": 89.0,
+          "originalPrice": null,
+          "stock": 28,
+          "status": "ENABLED",
+          "image": "/upload/products/drinkware/qivo-travel-coffee-cup.webp",
+          "createTime": "2026-10-26T20:45:41",
+          "updateTime": "2026-10-26T20:45:41"
+        }
+      ],
+      "reviews": [],
+      "reviewTotal": 0
+    },
+    {
+      "id": 23,
+      "name": "直身玻璃饮水杯",
+      "description": "透明直身杯壁，简洁造型适合日常饮水。",
+      "price": 29.0,
+      "originalPrice": null,
+      "stock": 45,
+      "status": 1,
+      "categoryId": 6,
+      "mainImage": "/upload/products/drinkware/qivo-glass-tumbler.webp",
+      "sales": 0,
+      "specMode": "SINGLE",
+      "specDefinition": "[]",
+      "maxPrice": 29.0,
+      "totalStock": 45,
+      "defaultSkuId": 31,
+      "skus": null,
+      "specDefinitions": null,
+      "createTime": "2026-10-26T20:45:41",
+      "updateTime": "2026-10-26T20:45:41",
+      "previewImage": "assets/qivo-catalog-images/drinkware/qivo-glass-tumbler.webp",
+      "categoryKey": "drinkware",
+      "definitions": [],
+      "variants": [
+        {
+          "id": 31,
+          "productId": 23,
+          "skuCode": "QIVO-CATALOG-V2-GLASS-TUMBLER-DEFAULT",
+          "specKey": "DEFAULT",
+          "specValues": "[]",
+          "price": 29.0,
+          "originalPrice": null,
+          "stock": 45,
+          "status": "ENABLED",
+          "image": "/upload/products/drinkware/qivo-glass-tumbler.webp",
+          "createTime": "2026-10-26T20:45:41",
+          "updateTime": "2026-10-26T20:45:41"
+        }
+      ],
+      "reviews": [],
+      "reviewTotal": 0
+    },
+    {
+      "id": 22,
+      "name": "磨砂陶瓷马克杯",
+      "description": "圆润杯口与宽握把，适合日常桌面饮用。",
+      "price": 49.0,
+      "originalPrice": null,
+      "stock": 68,
+      "status": 1,
+      "categoryId": 6,
+      "mainImage": "/upload/products/drinkware/qivo-ceramic-mug.webp",
+      "sales": 0,
+      "specMode": "MULTI",
+      "specDefinition": "[{\"id\": \"capacity\", \"name\": \"容量\", \"values\": [{\"id\": \"small\", \"name\": \"300 毫升\"}, {\"id\": \"large\", \"name\": \"400 毫升\"}]}]",
+      "maxPrice": 59.0,
+      "totalStock": 68,
+      "defaultSkuId": null,
+      "skus": null,
+      "specDefinitions": null,
+      "createTime": "2026-10-26T20:45:41",
+      "updateTime": "2026-10-26T20:45:41",
+      "previewImage": "assets/qivo-catalog-images/drinkware/qivo-ceramic-mug.webp",
+      "categoryKey": "drinkware",
+      "definitions": [
+        {
+          "id": "capacity",
+          "name": "容量",
+          "values": [
+            {
+              "id": "small",
+              "name": "300 毫升"
+            },
+            {
+              "id": "large",
+              "name": "400 毫升"
+            }
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": 29,
+          "productId": 22,
+          "skuCode": "QIVO-CATALOG-V2-CERAMIC-MUG-SMALL",
+          "specKey": "capacity=small",
+          "specValues": "[{\"specId\": \"capacity\", \"valueId\": \"small\"}]",
+          "price": 49.0,
+          "originalPrice": null,
+          "stock": 34,
+          "status": "ENABLED",
+          "image": "/upload/products/drinkware/qivo-ceramic-mug.webp",
+          "createTime": "2026-10-26T20:45:41",
+          "updateTime": "2026-10-26T20:45:41"
+        },
+        {
+          "id": 30,
+          "productId": 22,
+          "skuCode": "QIVO-CATALOG-V2-CERAMIC-MUG-LARGE",
+          "specKey": "capacity=large",
+          "specValues": "[{\"specId\": \"capacity\", \"valueId\": \"large\"}]",
+          "price": 59.0,
+          "originalPrice": null,
+          "stock": 34,
+          "status": "ENABLED",
+          "image": "/upload/products/drinkware/qivo-ceramic-mug.webp",
+          "createTime": "2026-10-26T20:45:41",
+          "updateTime": "2026-10-26T20:45:41"
+        }
+      ],
+      "reviews": [],
+      "reviewTotal": 0
+    },
+    {
+      "id": 20,
+      "name": "便携固态移动硬盘",
+      "description": "紧凑金属机身搭配短连接线，方便随行收纳。",
+      "price": 299.0,
+      "originalPrice": null,
+      "stock": 0,
+      "status": 1,
+      "categoryId": 5,
+      "mainImage": "/upload/products/computers/qivo-portable-solid-state-drive.webp",
+      "sales": 0,
+      "specMode": "MULTI",
+      "specDefinition": "[{\"id\": \"capacity\", \"name\": \"容量\", \"values\": [{\"id\": \"small\", \"name\": \"500 GB\"}, {\"id\": \"large\", \"name\": \"1 TB\"}]}]",
+      "maxPrice": 309.0,
+      "totalStock": 0,
+      "defaultSkuId": null,
+      "skus": null,
+      "specDefinitions": null,
+      "createTime": "2026-10-26T20:45:41",
+      "updateTime": "2026-10-26T20:45:41",
+      "previewImage": "assets/qivo-catalog-images/computers/qivo-portable-solid-state-drive.webp",
+      "categoryKey": "computers",
+      "definitions": [
+        {
+          "id": "capacity",
+          "name": "容量",
+          "values": [
+            {
+              "id": "small",
+              "name": "500 GB"
+            },
+            {
+              "id": "large",
+              "name": "1 TB"
+            }
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": 26,
+          "productId": 20,
+          "skuCode": "QIVO-CATALOG-V2-PORTABLE-SOLID-STATE-DRIVE-SMALL",
+          "specKey": "capacity=small",
+          "specValues": "[{\"specId\": \"capacity\", \"valueId\": \"small\"}]",
+          "price": 299.0,
+          "originalPrice": null,
+          "stock": 0,
+          "status": "ENABLED",
+          "image": "/upload/products/computers/qivo-portable-solid-state-drive.webp",
+          "createTime": "2026-10-26T20:45:41",
+          "updateTime": "2026-10-26T20:45:41"
+        },
+        {
+          "id": 27,
+          "productId": 20,
+          "skuCode": "QIVO-CATALOG-V2-PORTABLE-SOLID-STATE-DRIVE-LARGE",
+          "specKey": "capacity=large",
+          "specValues": "[{\"specId\": \"capacity\", \"valueId\": \"large\"}]",
+          "price": 309.0,
+          "originalPrice": null,
+          "stock": 0,
+          "status": "ENABLED",
+          "image": "/upload/products/computers/qivo-portable-solid-state-drive.webp",
+          "createTime": "2026-10-26T20:45:41",
+          "updateTime": "2026-10-26T20:45:41"
+        }
+      ],
+      "reviews": [],
+      "reviewTotal": 0
+    },
+    {
+      "id": 19,
+      "name": "编织理线套管",
+      "description": "将桌面线材集中收束，柔软套管便于整理走线。",
+      "price": 29.0,
+      "originalPrice": null,
+      "stock": 50,
+      "status": 1,
+      "categoryId": 5,
+      "mainImage": "/upload/products/computers/qivo-cable-sleeve.webp",
+      "sales": 0,
+      "specMode": "SINGLE",
+      "specDefinition": "[]",
+      "maxPrice": 29.0,
+      "totalStock": 50,
+      "defaultSkuId": 25,
+      "skus": null,
+      "specDefinitions": null,
+      "createTime": "2026-10-26T20:45:41",
+      "updateTime": "2026-10-26T20:45:41",
+      "previewImage": "assets/qivo-catalog-images/computers/qivo-cable-sleeve.webp",
+      "categoryKey": "computers",
+      "definitions": [],
+      "variants": [
+        {
+          "id": 25,
+          "productId": 19,
+          "skuCode": "QIVO-CATALOG-V2-CABLE-SLEEVE-DEFAULT",
+          "specKey": "DEFAULT",
+          "specValues": "[]",
+          "price": 29.0,
+          "originalPrice": null,
+          "stock": 50,
+          "status": "ENABLED",
+          "image": "/upload/products/computers/qivo-cable-sleeve.webp",
+          "createTime": "2026-10-26T20:45:41",
+          "updateTime": "2026-10-26T20:45:41"
+        }
+      ],
+      "reviews": [],
+      "reviewTotal": 0
+    },
+    {
+      "id": 18,
+      "name": "木质显示器增高架",
+      "description": "开放式架下空间，可收纳键盘与常用配件。",
+      "price": 149.0,
+      "originalPrice": null,
+      "stock": 18,
+      "status": 1,
+      "categoryId": 5,
+      "mainImage": "/upload/products/computers/qivo-wood-monitor-riser.webp",
+      "sales": 0,
+      "specMode": "SINGLE",
+      "specDefinition": "[]",
+      "maxPrice": 149.0,
+      "totalStock": 18,
+      "defaultSkuId": 24,
+      "skus": null,
+      "specDefinitions": null,
+      "createTime": "2026-10-26T20:45:41",
+      "updateTime": "2026-10-26T20:45:41",
+      "previewImage": "assets/qivo-catalog-images/computers/qivo-wood-monitor-riser.webp",
+      "categoryKey": "computers",
+      "definitions": [],
+      "variants": [
+        {
+          "id": 24,
+          "productId": 18,
+          "skuCode": "QIVO-CATALOG-V2-WOOD-MONITOR-RISER-DEFAULT",
+          "specKey": "DEFAULT",
+          "specValues": "[]",
+          "price": 149.0,
+          "originalPrice": null,
+          "stock": 18,
+          "status": "ENABLED",
+          "image": "/upload/products/computers/qivo-wood-monitor-riser.webp",
+          "createTime": "2026-10-26T20:45:41",
+          "updateTime": "2026-10-26T20:45:41"
+        }
+      ],
+      "reviews": [],
+      "reviewTotal": 0
+    },
+    {
+      "id": 17,
+      "name": "羊毛毡桌面垫",
+      "description": "柔和毡面与平整轮廓，适合键盘和鼠标的桌面区域。",
+      "price": 59.0,
+      "originalPrice": null,
+      "stock": 52,
+      "status": 1,
+      "categoryId": 5,
+      "mainImage": "/upload/products/computers/qivo-felt-desk-mat.webp",
+      "sales": 0,
+      "specMode": "MULTI",
+      "specDefinition": "[{\"id\": \"size\", \"name\": \"尺寸\", \"values\": [{\"id\": \"standard\", \"name\": \"标准款\"}, {\"id\": \"large\", \"name\": \"加大款\"}]}]",
+      "maxPrice": 69.0,
+      "totalStock": 52,
+      "defaultSkuId": null,
+      "skus": null,
+      "specDefinitions": null,
+      "createTime": "2026-10-26T20:45:41",
+      "updateTime": "2026-10-26T20:45:41",
+      "previewImage": "assets/qivo-catalog-images/computers/qivo-felt-desk-mat.webp",
+      "categoryKey": "computers",
+      "definitions": [
+        {
+          "id": "size",
+          "name": "尺寸",
+          "values": [
+            {
+              "id": "standard",
+              "name": "标准款"
+            },
+            {
+              "id": "large",
+              "name": "加大款"
+            }
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": 22,
+          "productId": 17,
+          "skuCode": "QIVO-CATALOG-V2-FELT-DESK-MAT-STANDARD",
+          "specKey": "size=standard",
+          "specValues": "[{\"specId\": \"size\", \"valueId\": \"standard\"}]",
+          "price": 59.0,
+          "originalPrice": null,
+          "stock": 26,
+          "status": "ENABLED",
+          "image": "/upload/products/computers/qivo-felt-desk-mat.webp",
+          "createTime": "2026-10-26T20:45:41",
+          "updateTime": "2026-10-26T20:45:41"
+        },
+        {
+          "id": 23,
+          "productId": 17,
+          "skuCode": "QIVO-CATALOG-V2-FELT-DESK-MAT-LARGE",
+          "specKey": "size=large",
+          "specValues": "[{\"specId\": \"size\", \"valueId\": \"large\"}]",
+          "price": 69.0,
+          "originalPrice": null,
+          "stock": 26,
+          "status": "ENABLED",
+          "image": "/upload/products/computers/qivo-felt-desk-mat.webp",
+          "createTime": "2026-10-26T20:45:41",
+          "updateTime": "2026-10-26T20:45:41"
+        }
+      ],
+      "reviews": [],
+      "reviewTotal": 0
+    },
+    {
+      "id": 16,
+      "name": "便携多接口扩展坞",
+      "description": "集中常用连接接口，短线设计便于随身收纳。",
+      "price": 119.0,
+      "originalPrice": null,
+      "stock": 32,
+      "status": 1,
+      "categoryId": 5,
+      "mainImage": "/upload/products/computers/qivo-usb-c-hub.webp",
+      "sales": 0,
+      "specMode": "SINGLE",
+      "specDefinition": "[]",
+      "maxPrice": 119.0,
+      "totalStock": 32,
+      "defaultSkuId": 21,
+      "skus": null,
+      "specDefinitions": null,
+      "createTime": "2026-10-26T20:45:41",
+      "updateTime": "2026-10-26T20:45:41",
+      "previewImage": "assets/qivo-catalog-images/computers/qivo-usb-c-hub.webp",
+      "categoryKey": "computers",
+      "definitions": [],
+      "variants": [
+        {
+          "id": 21,
+          "productId": 16,
+          "skuCode": "QIVO-CATALOG-V2-USB-C-HUB-DEFAULT",
+          "specKey": "DEFAULT",
+          "specValues": "[]",
+          "price": 119.0,
+          "originalPrice": null,
+          "stock": 32,
+          "status": "ENABLED",
+          "image": "/upload/products/computers/qivo-usb-c-hub.webp",
+          "createTime": "2026-10-26T20:45:41",
+          "updateTime": "2026-10-26T20:45:41"
+        }
+      ],
+      "reviews": [],
+      "reviewTotal": 0
+    },
+    {
+      "id": 15,
+      "name": "铝合金笔记本支架",
+      "description": "抬高电脑屏幕，折叠关节便于调整摆放角度。",
+      "price": 129.0,
+      "originalPrice": null,
+      "stock": 48,
+      "status": 1,
+      "categoryId": 5,
+      "mainImage": "/upload/products/computers/qivo-aluminum-laptop-stand.webp",
+      "sales": 0,
+      "specMode": "MULTI",
+      "specDefinition": "[{\"id\": \"color\", \"name\": \"颜色\", \"values\": [{\"id\": \"gray\", \"name\": \"石墨灰\"}, {\"id\": \"silver\", \"name\": \"银白\"}]}]",
+      "maxPrice": 139.0,
+      "totalStock": 48,
+      "defaultSkuId": null,
+      "skus": null,
+      "specDefinitions": null,
+      "createTime": "2026-10-26T20:45:41",
+      "updateTime": "2026-10-26T20:45:41",
+      "previewImage": "assets/qivo-catalog-images/computers/qivo-aluminum-laptop-stand.webp",
+      "categoryKey": "computers",
+      "definitions": [
+        {
+          "id": "color",
+          "name": "颜色",
+          "values": [
+            {
+              "id": "gray",
+              "name": "石墨灰"
+            },
+            {
+              "id": "silver",
+              "name": "银白"
+            }
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": 19,
+          "productId": 15,
+          "skuCode": "QIVO-CATALOG-V2-ALUMINUM-LAPTOP-STAND-GRAY",
+          "specKey": "color=gray",
+          "specValues": "[{\"specId\": \"color\", \"valueId\": \"gray\"}]",
+          "price": 129.0,
+          "originalPrice": null,
+          "stock": 24,
+          "status": "ENABLED",
+          "image": "/upload/products/computers/qivo-aluminum-laptop-stand.webp",
+          "createTime": "2026-10-26T20:45:41",
+          "updateTime": "2026-10-26T20:45:41"
+        },
+        {
+          "id": 20,
+          "productId": 15,
+          "skuCode": "QIVO-CATALOG-V2-ALUMINUM-LAPTOP-STAND-SILVER",
+          "specKey": "color=silver",
+          "specValues": "[{\"specId\": \"color\", \"valueId\": \"silver\"}]",
+          "price": 139.0,
+          "originalPrice": null,
+          "stock": 24,
+          "status": "ENABLED",
+          "image": "/upload/products/computers/qivo-aluminum-laptop-stand.webp",
+          "createTime": "2026-10-26T20:45:41",
+          "updateTime": "2026-10-26T20:45:41"
+        }
+      ],
+      "reviews": [],
+      "reviewTotal": 0
+    },
+    {
+      "id": 13,
+      "name": "独立无线数字键盘",
+      "description": "独立数字区便于表格录入，可按桌面习惯摆放。",
+      "price": 99.0,
+      "originalPrice": null,
+      "stock": 32,
+      "status": 1,
+      "categoryId": 3,
+      "mainImage": "/upload/products/keyboards/qivo-wireless-number-pad.webp",
+      "sales": 0,
+      "specMode": "MULTI",
+      "specDefinition": "[{\"id\": \"color\", \"name\": \"颜色\", \"values\": [{\"id\": \"gray\", \"name\": \"石墨灰\"}, {\"id\": \"silver\", \"name\": \"银白\"}]}]",
+      "maxPrice": 109.0,
+      "totalStock": 32,
+      "defaultSkuId": null,
+      "skus": null,
+      "specDefinitions": null,
+      "createTime": "2026-10-26T20:45:41",
+      "updateTime": "2026-10-26T20:45:41",
+      "previewImage": "assets/qivo-catalog-images/keyboards/qivo-wireless-number-pad.webp",
+      "categoryKey": "keyboards",
+      "definitions": [
+        {
+          "id": "color",
+          "name": "颜色",
+          "values": [
+            {
+              "id": "gray",
+              "name": "石墨灰"
+            },
+            {
+              "id": "silver",
+              "name": "银白"
+            }
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": 16,
+          "productId": 13,
+          "skuCode": "QIVO-CATALOG-V2-WIRELESS-NUMBER-PAD-GRAY",
+          "specKey": "color=gray",
+          "specValues": "[{\"specId\": \"color\", \"valueId\": \"gray\"}]",
+          "price": 99.0,
+          "originalPrice": null,
+          "stock": 16,
+          "status": "ENABLED",
+          "image": "/upload/products/keyboards/qivo-wireless-number-pad.webp",
+          "createTime": "2026-10-26T20:45:41",
+          "updateTime": "2026-10-26T20:45:41"
+        },
+        {
+          "id": 17,
+          "productId": 13,
+          "skuCode": "QIVO-CATALOG-V2-WIRELESS-NUMBER-PAD-SILVER",
+          "specKey": "color=silver",
+          "specValues": "[{\"specId\": \"color\", \"valueId\": \"silver\"}]",
+          "price": 109.0,
+          "originalPrice": null,
+          "stock": 16,
+          "status": "ENABLED",
+          "image": "/upload/products/keyboards/qivo-wireless-number-pad.webp",
+          "createTime": "2026-10-26T20:45:41",
+          "updateTime": "2026-10-26T20:45:41"
+        }
+      ],
+      "reviews": [],
+      "reviewTotal": 0
+    },
+    {
+      "id": 12,
+      "name": "弧面有线鼠标",
+      "description": "顺手弧面与侧边支撑，连接线便于直接接入电脑。",
+      "price": 69.0,
+      "originalPrice": null,
+      "stock": 35,
+      "status": 1,
+      "categoryId": 3,
+      "mainImage": "/upload/products/keyboards/qivo-ergonomic-wired-mouse.webp",
+      "sales": 0,
+      "specMode": "SINGLE",
+      "specDefinition": "[]",
+      "maxPrice": 69.0,
+      "totalStock": 35,
+      "defaultSkuId": 15,
+      "skus": null,
+      "specDefinitions": null,
+      "createTime": "2026-10-26T20:45:41",
+      "updateTime": "2026-10-26T20:45:41",
+      "previewImage": "assets/qivo-catalog-images/keyboards/qivo-ergonomic-wired-mouse.webp",
+      "categoryKey": "keyboards",
+      "definitions": [],
+      "variants": [
+        {
+          "id": 15,
+          "productId": 12,
+          "skuCode": "QIVO-CATALOG-V2-ERGONOMIC-WIRED-MOUSE-DEFAULT",
+          "specKey": "DEFAULT",
+          "specValues": "[]",
+          "price": 69.0,
+          "originalPrice": null,
+          "stock": 35,
+          "status": "ENABLED",
+          "image": "/upload/products/keyboards/qivo-ergonomic-wired-mouse.webp",
+          "createTime": "2026-10-26T20:45:41",
+          "updateTime": "2026-10-26T20:45:41"
+        }
+      ],
+      "reviews": [],
+      "reviewTotal": 0
+    },
+    {
+      "id": 11,
+      "name": "轻薄无线键盘",
+      "description": "低矮键帽搭配窄边框，留出更多桌面操作空间。",
+      "price": 159.0,
+      "originalPrice": null,
+      "stock": 44,
+      "status": 1,
+      "categoryId": 3,
+      "mainImage": "/upload/products/keyboards/qivo-slim-wireless-keyboard.webp",
+      "sales": 0,
+      "specMode": "MULTI",
+      "specDefinition": "[{\"id\": \"color\", \"name\": \"颜色\", \"values\": [{\"id\": \"gray\", \"name\": \"石墨灰\"}, {\"id\": \"silver\", \"name\": \"银白\"}]}]",
+      "maxPrice": 169.0,
+      "totalStock": 44,
+      "defaultSkuId": null,
+      "skus": null,
+      "specDefinitions": null,
+      "createTime": "2026-10-26T20:45:41",
+      "updateTime": "2026-10-26T20:45:41",
+      "previewImage": "assets/qivo-catalog-images/keyboards/qivo-slim-wireless-keyboard.webp",
+      "categoryKey": "keyboards",
+      "definitions": [
+        {
+          "id": "color",
+          "name": "颜色",
+          "values": [
+            {
+              "id": "gray",
+              "name": "石墨灰"
+            },
+            {
+              "id": "silver",
+              "name": "银白"
+            }
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": 13,
+          "productId": 11,
+          "skuCode": "QIVO-CATALOG-V2-SLIM-WIRELESS-KEYBOARD-GRAY",
+          "specKey": "color=gray",
+          "specValues": "[{\"specId\": \"color\", \"valueId\": \"gray\"}]",
+          "price": 159.0,
+          "originalPrice": null,
+          "stock": 22,
+          "status": "ENABLED",
+          "image": "/upload/products/keyboards/qivo-slim-wireless-keyboard.webp",
+          "createTime": "2026-10-26T20:45:41",
+          "updateTime": "2026-10-26T20:45:41"
+        },
+        {
+          "id": 14,
+          "productId": 11,
+          "skuCode": "QIVO-CATALOG-V2-SLIM-WIRELESS-KEYBOARD-SILVER",
+          "specKey": "color=silver",
+          "specValues": "[{\"specId\": \"color\", \"valueId\": \"silver\"}]",
+          "price": 169.0,
+          "originalPrice": null,
+          "stock": 22,
+          "status": "ENABLED",
+          "image": "/upload/products/keyboards/qivo-slim-wireless-keyboard.webp",
+          "createTime": "2026-10-26T20:45:41",
+          "updateTime": "2026-10-26T20:45:41"
+        }
+      ],
+      "reviews": [],
+      "reviewTotal": 0
+    },
+    {
+      "id": 9,
+      "name": "米白轻巧无线鼠标",
+      "description": "简洁弧线与柔和表面处理，适合日常办公与居家使用。",
+      "price": 79.0,
+      "originalPrice": null,
+      "stock": 0,
+      "status": 1,
+      "categoryId": 3,
+      "mainImage": "/upload/qivo-demo-catalog-v1/wireless-mouse.webp",
+      "sales": 0,
+      "specMode": "SINGLE",
+      "specDefinition": "[]",
+      "maxPrice": 79.0,
+      "totalStock": 0,
+      "defaultSkuId": 11,
+      "skus": null,
+      "specDefinitions": null,
+      "createTime": "2026-10-26T19:16:40",
+      "updateTime": "2026-10-26T20:45:41",
+      "previewImage": "assets/qivo-catalog-images/keyboards/qivo-ivory-wireless-mouse.webp",
+      "categoryKey": "keyboards",
+      "definitions": [],
+      "variants": [
+        {
+          "id": 11,
+          "productId": 9,
+          "skuCode": "QIVO-DEMO-V1-MOUSE-DEFAULT",
+          "specKey": "DEFAULT",
+          "specValues": "[]",
+          "price": 79.0,
+          "originalPrice": null,
+          "stock": 0,
+          "status": "ENABLED",
+          "image": "/upload/qivo-demo-catalog-v1/wireless-mouse.webp",
+          "createTime": "2026-10-26T19:16:40",
+          "updateTime": "2026-10-26T19:16:40"
+        }
+      ],
+      "reviews": [],
+      "reviewTotal": 0
+    },
+    {
+      "id": 8,
+      "name": "胡桃木桌面收纳座",
+      "description": "三个开放分区收纳常用小物，适合书桌与工作台。",
+      "price": 69.0,
+      "originalPrice": null,
+      "stock": 20,
+      "status": 1,
+      "categoryId": 4,
+      "mainImage": "/upload/qivo-demo-catalog-v1/desk-organizer.webp",
+      "sales": 0,
+      "specMode": "SINGLE",
+      "specDefinition": "[]",
+      "maxPrice": 69.0,
+      "totalStock": 20,
+      "defaultSkuId": 10,
+      "skus": null,
+      "specDefinitions": null,
+      "createTime": "2026-10-26T19:16:40",
+      "updateTime": "2026-10-26T20:45:41",
+      "previewImage": "assets/qivo-catalog-images/storage/qivo-walnut-organizer.webp",
+      "categoryKey": "storage",
+      "definitions": [],
+      "variants": [
+        {
+          "id": 10,
+          "productId": 8,
+          "skuCode": "QIVO-DEMO-V1-ORGANIZER-DEFAULT",
+          "specKey": "DEFAULT",
+          "specValues": "[]",
+          "price": 69.0,
+          "originalPrice": null,
+          "stock": 20,
+          "status": "ENABLED",
+          "image": "/upload/qivo-demo-catalog-v1/desk-organizer.webp",
+          "createTime": "2026-10-26T19:16:40",
+          "updateTime": "2026-10-26T19:16:40"
+        }
+      ],
+      "reviews": [],
+      "reviewTotal": 0
+    },
+    {
+      "id": 7,
+      "name": "真空保温杯",
+      "description": "哑光杯身与旋盖设计，提供两种容量。",
+      "price": 89.0,
+      "originalPrice": null,
+      "stock": 40,
+      "status": 1,
+      "categoryId": 6,
+      "mainImage": "/upload/qivo-demo-catalog-v1/vacuum-bottle.webp",
+      "sales": 0,
+      "specMode": "MULTI",
+      "specDefinition": "[{\"id\": \"capacity\", \"name\": \"容量\", \"values\": [{\"id\": \"small\", \"name\": \"350 毫升\"}, {\"id\": \"large\", \"name\": \"500 毫升\"}]}]",
+      "maxPrice": 99.0,
+      "totalStock": 40,
+      "defaultSkuId": null,
+      "skus": null,
+      "specDefinitions": null,
+      "createTime": "2026-10-26T19:16:40",
+      "updateTime": "2026-10-26T19:39:44",
+      "previewImage": "assets/qivo-catalog-images/drinkware/qivo-vacuum-flask.webp",
+      "categoryKey": "drinkware",
+      "definitions": [
+        {
+          "id": "capacity",
+          "name": "容量",
+          "values": [
+            {
+              "id": "small",
+              "name": "350 毫升"
+            },
+            {
+              "id": "large",
+              "name": "500 毫升"
+            }
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": 8,
+          "productId": 7,
+          "skuCode": "QIVO-DEMO-V1-BOTTLE-SMALL",
+          "specKey": "capacity=small",
+          "specValues": "[{\"specId\": \"capacity\", \"valueId\": \"small\"}]",
+          "price": 89.0,
+          "originalPrice": null,
+          "stock": 28,
+          "status": "ENABLED",
+          "image": "/upload/qivo-demo-catalog-v1/vacuum-bottle.webp",
+          "createTime": "2026-10-26T19:16:40",
+          "updateTime": "2026-10-26T19:16:40"
+        },
+        {
+          "id": 9,
+          "productId": 7,
+          "skuCode": "QIVO-DEMO-V1-BOTTLE-LARGE",
+          "specKey": "capacity=large",
+          "specValues": "[{\"specId\": \"capacity\", \"valueId\": \"large\"}]",
+          "price": 99.0,
+          "originalPrice": null,
+          "stock": 12,
+          "status": "ENABLED",
+          "image": "/upload/qivo-demo-catalog-v1/vacuum-bottle.webp",
+          "createTime": "2026-10-26T19:16:40",
+          "updateTime": "2026-10-26T19:16:40"
+        }
+      ],
+      "reviews": [],
+      "reviewTotal": 0
+    },
+    {
+      "id": 6,
+      "name": "75% 机械键盘",
+      "description": "紧凑配列与双拼色键帽，适合保持桌面整洁。",
+      "price": 299.0,
+      "originalPrice": null,
+      "stock": 18,
+      "status": 1,
+      "categoryId": 3,
+      "mainImage": "/upload/qivo-demo-catalog-v1/desk-keyboard.webp",
+      "sales": 0,
+      "specMode": "MULTI",
+      "specDefinition": "[{\"id\": \"color\", \"name\": \"配色\", \"values\": [{\"id\": \"blue\", \"name\": \"雾蓝\"}, {\"id\": \"black\", \"name\": \"曜黑\"}]}]",
+      "maxPrice": 299.0,
+      "totalStock": 18,
+      "defaultSkuId": null,
+      "skus": null,
+      "specDefinitions": null,
+      "createTime": "2026-10-26T19:16:40",
+      "updateTime": "2026-10-26T20:45:41",
+      "previewImage": "assets/qivo-catalog-images/keyboards/qivo-compact-mechanical-keyboard.webp",
+      "categoryKey": "keyboards",
+      "definitions": [
+        {
+          "id": "color",
+          "name": "配色",
+          "values": [
+            {
+              "id": "blue",
+              "name": "雾蓝"
+            },
+            {
+              "id": "black",
+              "name": "曜黑"
+            }
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": 6,
+          "productId": 6,
+          "skuCode": "QIVO-DEMO-V1-KEYBOARD-BLUE",
+          "specKey": "color=blue",
+          "specValues": "[{\"specId\": \"color\", \"valueId\": \"blue\"}]",
+          "price": 299.0,
+          "originalPrice": null,
+          "stock": 18,
+          "status": "ENABLED",
+          "image": "/upload/qivo-demo-catalog-v1/desk-keyboard.webp",
+          "createTime": "2026-10-26T19:16:40",
+          "updateTime": "2026-10-26T19:16:40"
+        }
+      ],
+      "reviews": [],
+      "reviewTotal": 0
+    },
+    {
+      "id": 5,
+      "name": "捷跃 AirBook 14 轻薄笔记本",
+      "description": "轻薄金属机身，护眼全面屏，满足网课、日常办公、文档处理。",
+      "price": 19.0,
+      "originalPrice": null,
+      "stock": 10,
+      "status": 1,
+      "categoryId": 5,
+      "mainImage": "/upload/products/laptops/airbook-14-cover-v1.png",
+      "sales": 0,
+      "specMode": "SINGLE",
+      "specDefinition": "[]",
+      "maxPrice": 19.0,
+      "totalStock": 10,
+      "defaultSkuId": 5,
+      "skus": null,
+      "specDefinitions": null,
+      "createTime": "2026-10-23T16:30:41",
+      "updateTime": "2026-10-26T20:45:41",
+      "previewImage": "assets/qivo-catalog-images/computers/qivo-airbook-14.webp",
+      "categoryKey": "computers",
+      "definitions": [],
+      "variants": [
+        {
+          "id": 5,
+          "productId": 5,
+          "skuCode": "QIVO-DEFAULT-5",
+          "specKey": "DEFAULT",
+          "specValues": "[]",
+          "price": 19.0,
+          "originalPrice": 29.0,
+          "stock": 10,
+          "status": "ENABLED",
+          "image": null,
+          "createTime": "2026-10-23T20:19:19",
+          "updateTime": "2026-10-23T20:19:19"
+        }
+      ],
+      "reviews": [],
+      "reviewTotal": 0
+    },
+    {
+      "id": 4,
+      "name": "便携保温杯",
+      "description": "日常随行。",
+      "price": 89.0,
+      "originalPrice": null,
+      "stock": 59,
+      "status": 1,
+      "categoryId": 6,
+      "mainImage": "/upload/products/tumblers/portable-insulated-tumbler-cover-v1.png",
+      "sales": 2,
+      "specMode": "SINGLE",
+      "specDefinition": "[]",
+      "maxPrice": 89.0,
+      "totalStock": 59,
+      "defaultSkuId": 4,
+      "skus": null,
+      "specDefinitions": null,
+      "createTime": "2026-10-23T16:30:41",
+      "updateTime": "2026-10-26T20:45:41",
+      "previewImage": "assets/qivo-catalog-images/drinkware/qivo-insulated-tumbler.webp",
+      "categoryKey": "drinkware",
+      "definitions": [],
+      "variants": [
+        {
+          "id": 4,
+          "productId": 4,
+          "skuCode": "QIVO-DEFAULT-4",
+          "specKey": "DEFAULT",
+          "specValues": "[]",
+          "price": 89.0,
+          "originalPrice": 119.0,
+          "stock": 59,
+          "status": "ENABLED",
+          "image": null,
+          "createTime": "2026-10-23T20:19:19",
+          "updateTime": "2026-10-25T22:36:16"
+        }
+      ],
+      "reviews": [],
+      "reviewTotal": 0
+    },
+    {
+      "id": 3,
+      "name": "桌面收纳盒",
+      "description": "整理桌面小物。",
+      "price": 39.0,
+      "originalPrice": null,
+      "stock": 100,
+      "status": 1,
+      "categoryId": 4,
+      "mainImage": "/upload/products/desktop-organizers/desktop-organizer-cover-v1.png",
+      "sales": 0,
+      "specMode": "SINGLE",
+      "specDefinition": "[]",
+      "maxPrice": 39.0,
+      "totalStock": 100,
+      "defaultSkuId": 3,
+      "skus": null,
+      "specDefinitions": null,
+      "createTime": "2026-10-23T16:30:41",
+      "updateTime": "2026-10-25T16:21:22",
+      "previewImage": "assets/qivo-catalog-images/storage/qivo-desktop-organizer.webp",
+      "categoryKey": "storage",
+      "definitions": [],
+      "variants": [
+        {
+          "id": 3,
+          "productId": 3,
+          "skuCode": "QIVO-DEFAULT-3",
+          "specKey": "DEFAULT",
+          "specValues": "[]",
+          "price": 39.0,
+          "originalPrice": 49.0,
+          "stock": 100,
+          "status": "ENABLED",
+          "image": null,
+          "createTime": "2026-10-23T20:19:19",
+          "updateTime": "2026-10-23T20:19:19"
+        }
+      ],
+      "reviews": [],
+      "reviewTotal": 0
+    },
+    {
+      "id": 2,
+      "name": "轻巧无线鼠标",
+      "description": "适用于日常办公。",
+      "price": 79.0,
+      "originalPrice": null,
+      "stock": 80,
+      "status": 1,
+      "categoryId": 3,
+      "mainImage": "/upload/products/mice/light-wireless-mouse-cover-v1.png",
+      "sales": 1,
+      "specMode": "SINGLE",
+      "specDefinition": "[]",
+      "maxPrice": 79.0,
+      "totalStock": 80,
+      "defaultSkuId": 2,
+      "skus": null,
+      "specDefinitions": null,
+      "createTime": "2026-10-23T16:30:41",
+      "updateTime": "2026-10-25T16:22:54",
+      "previewImage": "assets/qivo-catalog-images/keyboards/qivo-wireless-mouse.webp",
+      "categoryKey": "keyboards",
+      "definitions": [],
+      "variants": [
+        {
+          "id": 2,
+          "productId": 2,
+          "skuCode": "QIVO-DEFAULT-2",
+          "specKey": "DEFAULT",
+          "specValues": "[]",
+          "price": 79.0,
+          "originalPrice": 99.0,
+          "stock": 80,
+          "status": "ENABLED",
+          "image": null,
+          "createTime": "2026-10-23T20:19:19",
+          "updateTime": "2026-10-23T20:19:19"
+        }
+      ],
+      "reviews": [
+        {
+          "id": 1,
+          "userId": 1,
+          "username": "buyer",
+          "productId": 2,
+          "orderId": 1,
+          "rating": 5,
+          "content": "开发演示评价：使用方便。",
+          "pics": null,
+          "appendContent": null,
+          "appendTime": null,
+          "createTime": "2026-10-23T16:30:41"
+        }
+      ],
+      "reviewTotal": 1
+    },
+    {
+      "id": 1,
+      "name": "栖物机械键盘",
+      "description": "紧凑布局，有线连接。",
+      "price": 199.0,
+      "originalPrice": null,
+      "stock": 50,
+      "status": 1,
+      "categoryId": 3,
+      "mainImage": "/upload/products/keyboards/qivo-mechanical-keyboard-cover-v1.png",
+      "sales": 0,
+      "specMode": "SINGLE",
+      "specDefinition": "[]",
+      "maxPrice": 199.0,
+      "totalStock": 50,
+      "defaultSkuId": 1,
+      "skus": null,
+      "specDefinitions": null,
+      "createTime": "2026-10-23T16:30:41",
+      "updateTime": "2026-10-25T16:23:34",
+      "previewImage": "assets/qivo-catalog-images/keyboards/qivo-mechanical-keyboard.webp",
+      "categoryKey": "keyboards",
+      "definitions": [],
+      "variants": [
+        {
+          "id": 1,
+          "productId": 1,
+          "skuCode": "QIVO-DEFAULT-1",
+          "specKey": "DEFAULT",
+          "specValues": "[]",
+          "price": 199.0,
+          "originalPrice": 259.0,
+          "stock": 50,
+          "status": "ENABLED",
+          "image": null,
+          "createTime": "2026-10-23T20:19:19",
+          "updateTime": "2026-10-23T20:19:19"
+        }
+      ],
+      "reviews": [],
+      "reviewTotal": 0
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "name": "数码办公",
+      "parentId": 0,
+      "sortOrder": 1,
+      "icon": null,
+      "status": 1,
+      "createTime": "2026-10-23T16:30:41",
+      "updateTime": "2026-10-23T16:30:41"
+    },
+    {
+      "id": 3,
+      "name": "键盘鼠标",
+      "parentId": 1,
+      "sortOrder": 1,
+      "icon": null,
+      "status": 1,
+      "createTime": "2026-10-23T16:30:41",
+      "updateTime": "2026-10-23T16:30:41"
+    },
+    {
+      "id": 6,
+      "name": "杯具",
+      "parentId": 2,
+      "sortOrder": 1,
+      "icon": "/upload/qivo-demo-catalog-v1/vacuum-bottle.webp",
+      "status": 1,
+      "createTime": "2026-10-26T19:16:40",
+      "updateTime": "2026-10-26T20:45:41"
+    },
+    {
+      "id": 2,
+      "name": "居家生活",
+      "parentId": 0,
+      "sortOrder": 2,
+      "icon": null,
+      "status": 1,
+      "createTime": "2026-10-23T16:30:41",
+      "updateTime": "2026-10-23T16:30:41"
+    },
+    {
+      "id": 4,
+      "name": "桌面收纳",
+      "parentId": 2,
+      "sortOrder": 2,
+      "icon": null,
+      "status": 1,
+      "createTime": "2026-10-23T16:30:41",
+      "updateTime": "2026-10-26T20:45:41"
+    },
+    {
+      "id": 5,
+      "name": "电脑与配件",
+      "parentId": 1,
+      "sortOrder": 2,
+      "icon": "/upload/qivo-demo-catalog-v1/desk-keyboard.webp",
+      "status": 1,
+      "createTime": "2026-10-26T19:16:40",
+      "updateTime": "2026-10-26T20:45:41"
+    },
+    {
+      "id": 7,
+      "name": "照明",
+      "parentId": 2,
+      "sortOrder": 3,
+      "icon": "/upload/qivo-demo-catalog-v1/desk-organizer.webp",
+      "status": 1,
+      "createTime": "2026-10-26T19:16:40",
+      "updateTime": "2026-10-26T20:45:41"
+    }
+  ]
+}

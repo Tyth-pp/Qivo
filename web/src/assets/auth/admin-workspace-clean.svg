@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 440" fill="none">
+  <g stroke="#424c47" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+    <!-- 单一矩形光面，替代旧版窗框和拱形叠加。 -->
+    <path d="M43 49h176v184H43z" fill="#eef1ef" stroke="#ccd3cf"/>
+    <path d="M43 219h176" stroke="#ccd3cf"/>
+    <!-- 桌面以少量透视线连接三个日常器物。 -->
+    <path d="m23 302 98-54 218 53-99 65z" fill="#fafbf9" stroke="#aab4ae"/>
+    <path d="M23 302v18l217 65 99-65v-19M240 366v19" stroke="#aab4ae"/>
+    <!-- 金属台灯：统一圆端灯头、直杆、椭圆底座。 -->
+    <ellipse cx="128" cy="278" rx="40" ry="12" fill="#f7f8f6"/>
+    <path d="M88 278v6c0 7 18 13 40 13s40-6 40-13v-6" fill="#edf1ed"/>
+    <path d="M88 278c0 7 18 12 40 12s40-5 40-12"/>
+    <path d="M124 278V132a11 11 0 0 1 11-11h9M131 278V134a5 5 0 0 1 5-5h8" fill="#fff"/>
+    <rect x="141" y="110" width="127" height="24" rx="12" fill="#fbfcfa"/>
+    <path d="M153 126h102" stroke="#246b58" stroke-width="3"/>
+    <!-- 闭合书本以唯一深绿平面形成落点。 -->
+    <path d="m62 332 63-31 91 24-63 34z" fill="#246b58" stroke="#246b58"/>
+    <path d="M62 332v13l91 26 63-34v-12l-63 34z" fill="#fff"/>
+    <path d="m68 341 84 24 56-30M72 337l80 23 53-29" stroke="#c0c9c2" stroke-width="1.2"/>
+    <path d="m62 332 91 27 63-34M121 303l88 25" stroke="#246b58"/>
+    <!-- 收纳托盘不堆叠额外商品，保留清楚的开口与边沿。 -->
+    <path d="m231 283 45-23 46 13-43 26z" fill="#f1f3ef"/>
+    <path d="m231 283 3 22 45 14 40-25 3-21M279 299v20" fill="#fafbf8"/>
+    <path d="m240 283 36-17 35 10-33 19z" stroke="#929e96"/>
+  </g>
+</svg>

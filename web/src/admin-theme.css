@@ -1,0 +1,884 @@
+/* 管理台 A 方案：变量限于后台页面，弹层通过临时 body 类继承。 */
+.admin-shell,body.qivo-admin-theme {
+  --admin-accent:#245ae8;
+  --admin-soft:#edf2ff;
+  --green:#245ae8;
+  --ink:#18181b;
+  --muted:#858d9b;
+  --line:#e7e9ee;
+  --soft:#f5f6f8;
+  --el-color-primary:#245ae8;
+  --el-color-primary-light-3:#668bf0;
+  --el-color-primary-light-5:#92acf4;
+  --el-color-primary-light-7:#bdcef8;
+  --el-color-primary-light-8:#d3defa;
+  --el-color-primary-light-9:#edf2ff;
+  --el-color-primary-dark-2:#1d48ba;
+  --el-border-color:#dfe3eb;
+  --el-border-color-light:#e7e9ee;
+  --el-border-color-lighter:#edf0f4;
+  --el-text-color-primary:#242832;
+  --el-text-color-regular:#596272;
+  --el-text-color-secondary:#858d9b;
+  --el-fill-color-blank:#fff;
+  --el-fill-color-light:#f6f8fb;
+  --el-bg-color:#fff;
+  --el-font-size-base:14px;
+  --el-border-radius-base:5px;
+}
+
+.admin-shell {
+  background:#f5f6f8;
+  color:var(--ink);
+  height:100dvh;
+  overflow:hidden;
+  min-width:1120px
+}
+
+.admin-shell .admin-side {
+  width:216px;
+  flex-basis:216px;
+  padding:28px 16px 14px;
+  background:#fff;
+  border-color:var(--line)
+}
+
+.admin-shell .admin-brand {
+  flex-direction:column;
+  align-items:flex-start;
+  margin:0 12px 20px;
+  padding-bottom:20px;
+  gap:8px;
+  border-bottom:1px solid var(--line)
+}
+
+.admin-shell .admin-brand img.qivo-wordmark {
+  width:94px;
+  height:38px
+}
+
+.admin-shell .admin-brand .admin-brand-caption {
+  writing-mode:horizontal-tb;
+  font-size:12px;
+  line-height:18px;
+  font-weight:400;
+  color:#687385;
+  border:0;
+  padding:0;
+  white-space:nowrap
+}
+
+.admin-shell .admin-nav-label {
+  font-size:11px;
+  letter-spacing:.3px;
+  color:#939ba9;
+  margin:26px 14px 10px
+}
+
+.admin-shell .admin-nav a {
+  height:44px;
+  padding:0 14px;
+  font-size:14px;
+  gap:12px;
+  color:#626b7b;
+  margin-bottom:4px;
+  border-radius:6px
+}
+
+.admin-shell .admin-nav a .el-icon {
+  font-size:17px
+}
+
+.admin-shell .admin-nav a:hover {
+  background:#f5f7fb;
+  color:#344255
+}
+
+.admin-shell .admin-nav a.active {
+  color:var(--admin-accent);
+  background:var(--admin-soft);
+  font-weight:600
+}
+
+.admin-shell .admin-nav a.active:after {
+  background:var(--admin-accent)
+}
+
+.admin-shell .admin-account {
+  padding:19px 8px 4px;
+  border-color:var(--line)
+}
+
+.admin-shell .admin-account .account-avatar {
+  background:#eef1f6;
+  color:#606a7d
+}
+
+.admin-shell .admin-settings-trigger small {
+  color:#929aa6
+}
+
+.admin-shell .admin-settings-trigger:hover small {
+  color:var(--admin-accent)
+}
+
+.admin-shell .admin-top {
+  height:68px;
+  flex-basis:68px;
+  padding:0 36px;
+  border-color:var(--line)
+}
+
+.admin-shell .admin-crumb {
+  color:#929aa8;
+  font-size:12px
+}
+
+.admin-shell .admin-crumb b {
+  font-weight:500;
+  color:#333d4d
+}
+
+.admin-top-tools {
+  display:flex;
+  align-items:center;
+  gap:18px;
+  font-size:12px;
+  color:#919aa8
+}
+
+.admin-top-tools>i {
+  width:1px;
+  height:16px;
+  background:var(--line)
+}
+
+.admin-top-identity {
+  display:flex;
+  align-items:center;
+  gap:9px;
+  border:0;
+  background:none;
+  cursor:pointer;
+  color:#505b6d;
+  padding:0
+}
+
+.admin-top-identity strong {
+  font-size:12px;
+  font-weight:500;
+  max-width:120px;
+  overflow:hidden;
+  text-overflow:ellipsis;
+  white-space:nowrap
+}
+
+.admin-shell .admin-content {
+  padding:30px 36px 20px;
+  scrollbar-gutter:stable;
+  min-height:0;
+  overflow-y:auto
+}
+
+.admin-shell .admin-footer {
+  font-size:10px;
+  color:#a2aab7;
+  margin-top:20px
+}
+
+.admin-shell .page-heading {
+  margin-bottom:26px;
+  align-items:center;
+  gap:20px
+}
+
+.admin-shell .page-heading h1 {
+  font-size:22px;
+  line-height:1.4;
+  letter-spacing:-.5px;
+  font-weight:650;
+  color:#18181b
+}
+
+.admin-heading-description {
+  font-size:12px;
+  color:#8a929f;
+  margin:8px 0 0;
+  line-height:1.7
+}
+
+.admin-heading-note {
+  font-size:12px;
+  color:#8b95a4
+}
+
+.admin-shell h2 {
+  font-size:16px;
+  font-weight:600;
+  color:#242b37
+}
+
+.admin-shell .panel {
+  border:1px solid var(--line);
+  border-radius:8px;
+  box-shadow:none;
+  background:#fff;
+  padding:24px
+}
+
+.admin-shell .panel+.panel {
+  margin-top:24px
+}
+
+.admin-shell .panel.list-panel {
+  padding:0
+}
+
+.admin-shell .panel .section-heading {
+  border:0;
+  padding-bottom:0;
+  margin-bottom:20px;
+  align-items:center;
+  gap:18px
+}
+
+.admin-shell .section-heading small {
+  font-size:12px;
+  color:var(--muted);
+  line-height:1.8
+}
+
+.admin-shell .text-link {
+  color:var(--admin-accent);
+  font-size:12px;
+  display:inline-flex;
+  align-items:center;
+  gap:7px
+}
+
+.admin-shell .text-link .el-icon {
+  font-size:12px
+}
+
+.admin-shell .muted {
+  color:var(--muted)
+}
+
+.admin-shell .price,.admin-shell .numeric {
+  color:#242e40;
+  font-variant-numeric:tabular-nums
+}
+
+.admin-shell .page-state {
+  min-height:230px;
+  color:#919baa
+}
+
+.admin-shell .page-state>.el-icon {
+  color:#9aa8bf
+}
+
+.admin-shell .page-state h3 {
+  font-size:15px;
+  color:#354155
+}
+
+.admin-shell .page-state p {
+  font-size:13px;
+  color:#8a95a7
+}
+
+.admin-shell .soft-note {
+  background:#f5f7fc;
+  border-color:#e7ecf5;
+  color:#68758b
+}
+
+.admin-shell .status-tag {
+  background:var(--admin-soft);
+  color:var(--admin-accent)
+}
+
+.admin-shell .status-tag.grey {
+  background:#f2f4f7;
+  color:#8993a2
+}
+
+.admin-shell .el-table {
+  --el-table-header-bg-color:#fafbfc;
+  --el-table-header-text-color:#858f9e;
+  --el-table-text-color:#596575;
+  --el-table-border-color:#edf0f4;
+  --el-table-row-hover-bg-color:#f8faff;
+  font-size:13px
+}
+
+.admin-shell .el-table th.el-table__cell {
+  height:43px;
+  padding:9px 0;
+  font-size:12px;
+  font-weight:400
+}
+
+.admin-shell .el-table td.el-table__cell {
+  padding:17px 0
+}
+
+.admin-shell .el-table .cell {
+  line-height:1.65;
+  padding-left:18px;
+  padding-right:18px;
+  word-break:normal;
+  overflow-wrap:anywhere
+}
+
+.admin-shell .el-table__cell:first-child .cell {
+  padding-left:24px
+}
+
+.admin-shell .el-table__empty-block {
+  min-height:180px
+}
+
+.admin-shell .el-button {
+  font-size:13px;
+  font-weight:400
+}
+
+.admin-shell .el-button.is-link:not(.is-disabled):not(.danger-link):not(.el-button--danger) {
+  color:var(--admin-accent)
+}
+
+.admin-shell .filter-row {
+  gap:12px;
+  align-items:center
+}
+
+.admin-shell .list-panel>.filter-row {
+  padding:24px
+}
+
+.admin-shell .list-panel>.el-tabs {
+  padding:8px 24px 0
+}
+
+.admin-shell .el-tabs__item {
+  font-size:13px;
+  height:48px
+}
+
+.admin-shell .el-tabs__nav-wrap:after {
+  height:1px;
+  background:var(--line)
+}
+
+.admin-shell .pager {
+  padding-top:20px;
+  gap:14px
+}
+
+.admin-shell .list-panel>.pager {
+  padding:20px 24px;
+  border-top:1px solid var(--line)
+}
+
+.admin-shell .el-pagination {
+  font-size:12px
+}
+
+.admin-shell .row-actions,.admin-shell .inline-actions {
+  flex-wrap:wrap;
+  gap:10px
+}
+
+.admin-shell .el-table .row-actions {
+  flex-wrap:nowrap;
+  white-space:nowrap
+}
+
+.admin-shell .el-table .row-actions .el-button {
+  font-size:12px;
+  margin-left:0
+}
+
+.admin-shell .product-cell strong {
+  color:#303c50
+}
+
+.admin-shell .mono {
+  color:#59677c;
+  font-size:12px
+}
+
+.admin-shell .role-list button.active {
+  background:var(--admin-soft)
+}
+
+.admin-shell .el-tree {
+  --el-tree-node-hover-bg-color:#f6f8fc;
+  color:#5c687a
+}
+
+.admin-shell .el-tree-node__content {
+  height:38px
+}
+
+.admin-shell .el-tree-node__label {
+  font-size:13px
+}
+
+.admin-shell .permission-panel>.section-heading {
+  align-items:flex-start
+}
+
+.admin-shell :focus-visible {
+  outline:2px solid var(--admin-accent);
+  outline-offset:3px
+}
+
+/* 工作台：四项指标、趋势与操作、独立订单列表。 */
+.admin-shell .admin-metrics {
+  display:grid;
+  grid-template-columns:repeat(4,minmax(0,1fr));
+  gap:18px;
+  margin-bottom:24px
+}
+
+.admin-shell .admin-metrics>.panel {
+  margin:0;
+  padding:21px 22px 19px;
+  min-width:0
+}
+
+.metric-label {
+  font-size:13px;
+  color:#697586;
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  gap:10px
+}
+
+.metric-label .el-icon {
+  color:#9ca7b8;
+  font-size:17px
+}
+
+.admin-metrics article>strong {
+  display:block;
+  font-family:"Segoe UI",Arial,sans-serif;
+  font-size:32px;
+  letter-spacing:-.8px;
+  font-weight:600;
+  line-height:1.35;
+  margin:14px 0 10px;
+  overflow-wrap:anywhere;
+  color:#18181b;
+  font-variant-numeric:tabular-nums
+}
+
+.admin-metrics strong>small {
+  font-size:20px;
+  font-weight:500;
+  letter-spacing:0;
+  margin-right:5px
+}
+
+.admin-metrics em {
+  font-style:normal;
+  font-size:12px;
+  font-weight:400;
+  color:#969eab;
+  letter-spacing:0;
+  margin-left:8px
+}
+
+.admin-metrics p {
+  font-size:11px;
+  color:#919ba9;
+  line-height:1.7
+}
+
+.admin-dashboard-grid {
+  display:grid;
+  grid-template-columns:minmax(0,1fr) 302px;
+  gap:24px;
+  margin-bottom:24px
+}
+
+.admin-shell .admin-dashboard-grid>.panel {
+  margin:0;
+  min-width:0
+}
+
+.admin-shell .dashboard-trend .section-heading {
+  min-height:44px;
+  margin-bottom:12px
+}
+
+.chart-caption {
+  font-size:12px;
+  color:#8d97a6;
+  line-height:1.7;
+  margin:7px 0 0
+}
+
+.admin-shell .dashboard-operations {
+  padding:22px 24px 20px
+}
+
+.dashboard-operations>h2 {
+  margin-bottom:14px
+}
+
+.admin-shell .quick-link {
+  gap:12px;
+  padding:12px 0;
+  border:0;
+  font-size:13px;
+  color:#424f63
+}
+
+.admin-shell .quick-link small {
+  font-size:11px;
+  color:#939eac;
+  margin-top:5px
+}
+
+.admin-shell .quick-link>.el-icon {
+  font-size:17px;
+  padding:8px;
+  background:#fff;
+  border:1px solid var(--line);
+  border-radius:7px;
+  color:#78869a
+}
+
+.admin-shell .quick-link>.quick-arrow {
+  margin-left:auto;
+  padding:0;
+  border:0;
+  font-size:12px
+}
+
+.admin-shell .quick-link:hover {
+  color:var(--admin-accent)
+}
+
+.dashboard-inventory {
+  margin-top:15px;
+  padding-top:15px;
+  border-top:1px solid var(--line)
+}
+
+.dashboard-inventory>span {
+  font-size:11px;
+  color:#919baa
+}
+
+.dashboard-inventory>div:not(.inventory-bar) {
+  display:flex;
+  justify-content:space-between;
+  margin-top:8px;
+  gap:10px
+}
+
+.dashboard-inventory strong {
+  font-size:14px;
+  font-weight:600;
+  color:#3b4a62
+}
+
+.dashboard-inventory small {
+  font-size:11px;
+  color:#929dab;
+  font-weight:400;
+  margin-left:5px
+}
+
+.inventory-bar {
+  height:4px;
+  border-radius:2px;
+  background:#eef1f6;
+  margin-top:12px
+}
+
+.inventory-bar i {
+  display:block;
+  height:100%;
+  background:var(--admin-accent);
+  opacity:.7;
+  border-radius:2px
+}
+
+.admin-shell .dashboard-orders>.section-heading {
+  padding:22px 24px 0
+}
+
+.admin-shell .dashboard-orders .order-time {
+  font-size:11px;
+  color:#929daa;
+  display:block;
+  margin-top:5px
+}
+
+/* 数据统计：累计与周期分离，不混用金额和数量单位。 */
+.admin-shell .statistics-totals {
+  display:flex;
+  align-items:center;
+  gap:0;
+  margin-bottom:24px
+}
+
+.statistics-totals>div {
+  min-width:210px;
+  padding-right:60px
+}
+
+.statistics-totals>div+div {
+  border-left:1px solid var(--line);
+  padding-left:45px
+}
+
+.statistics-totals p {
+  color:#7c8796;
+  font-size:12px
+}
+
+.statistics-totals strong {
+  font-family:"Segoe UI",Arial,sans-serif;
+  font-size:32px;
+  font-weight:600;
+  display:block;
+  margin-top:10px;
+  letter-spacing:-.6px
+}
+
+.statistics-totals strong small {
+  font-size:12px;
+  color:#929eac;
+  font-weight:400;
+  margin-left:10px
+}
+
+.statistics-totals>span {
+  margin-left:auto;
+  display:flex;
+  gap:6px;
+  align-items:center;
+  color:#929dab;
+  font-size:12px
+}
+
+.statistics-totals>span .el-icon {
+  font-size:13px
+}
+
+.admin-shell .statistics-trend {
+  margin-top:0;
+  margin-bottom:24px
+}
+
+.trend-switch {
+  display:flex;
+  gap:4px;
+  width:fit-content;
+  padding:3px;
+  background:#f3f5f8;
+  border-radius:5px;
+  margin-bottom:16px
+}
+
+.trend-switch button {
+  border:0;
+  background:none;
+  padding:7px 13px;
+  color:#8994a5;
+  font-size:12px;
+  border-radius:4px;
+  cursor:pointer
+}
+
+.trend-switch button.active {
+  background:#fff;
+  color:var(--admin-accent);
+  box-shadow:0 1px 3px #202e4310
+}
+
+.admin-shell .statistics-ranking {
+  padding:0;
+  margin-top:0
+}
+
+.admin-shell .statistics-ranking>.section-heading {
+  padding:22px 24px 0
+}
+
+/* Teleport 弹层继承后台主题；标题、底栏固定，仅内容滚动。 */
+body.qivo-admin-theme .el-drawer,body.qivo-admin-theme .el-dialog {
+  color:#354155;
+  --muted:#858d9b;
+  --line:#e7e9ee;
+  --green:#245ae8
+}
+
+.qivo-admin-theme .el-drawer__header {
+  border-color:#e7e9ee;
+  padding:22px 26px;
+  margin-bottom:0;
+  color:#242e40
+}
+
+.qivo-admin-theme .el-drawer__title,.qivo-admin-theme .el-dialog__title {
+  font-size:17px;
+  font-weight:600
+}
+
+.qivo-admin-theme .el-drawer__body {
+  padding:24px 26px;
+  min-height:0;
+  overflow-y:auto
+}
+
+.qivo-admin-theme .el-drawer__footer {
+  padding:18px 26px;
+  border-color:#e7e9ee
+}
+
+.qivo-admin-theme .el-dialog__body {
+  color:#657286
+}
+
+.qivo-admin-theme .el-form-item__label {
+  font-size:13px;
+  color:#657286
+}
+
+.qivo-admin-theme .el-input__wrapper,.qivo-admin-theme .el-select__wrapper {
+  background:#fff
+}
+
+.qivo-admin-theme .soft-note {
+  background:#f5f7fc;
+  color:#68758b;
+  border-color:#e7ecf5
+}
+
+.qivo-admin-theme .status-tag {
+  background:#edf2ff;
+  color:#245ae8
+}
+
+.qivo-admin-theme .section-heading h2 {
+  font-size:16px
+}
+
+.qivo-admin-theme .el-button {
+  font-size:13px
+}
+
+.qivo-admin-theme .el-button.is-link:not(.is-disabled):not(.danger-link):not(.el-button--danger) {
+  color:#245ae8
+}
+
+.qivo-admin-theme .image-input {
+  background:#f6f8fb
+}
+
+.qivo-admin-theme .spec-preview {
+  background:#f6f8fb
+}
+
+.qivo-admin-theme .el-table {
+  --el-table-header-bg-color:#fafbfc;
+  --el-table-border-color:#edf0f4;
+  --el-table-text-color:#596575;
+  --el-table-header-text-color:#858f9e;
+  font-size:13px
+}
+
+@media(max-width:1320px) {
+  .admin-shell .admin-side {
+    width:204px;
+    flex-basis:204px
+  }
+
+  .admin-shell .admin-top {
+    padding:0 28px
+  }
+
+  .admin-shell .admin-content {
+    padding:26px 28px 20px
+  }
+
+  .admin-shell .admin-metrics {
+    gap:14px
+  }
+
+  .admin-shell .admin-metrics>.panel {
+    padding:19px 17px
+  }
+
+  .admin-metrics article>strong {
+    font-size:30px
+  }
+
+  .admin-dashboard-grid {
+    grid-template-columns:minmax(0,1fr) 270px;
+    gap:20px
+  }
+
+  .admin-shell .dashboard-operations {
+    padding:22px 20px 20px
+  }
+
+  .statistics-totals>div {
+    min-width:180px;
+    padding-right:35px
+  }
+
+  .statistics-totals>div+div {
+    padding-left:35px
+  }
+
+}
+
+@media(prefers-reduced-motion:reduce) {
+  .admin-shell *,body.qivo-admin-theme .el-drawer {
+    scroll-behavior:auto;
+    transition:none!important
+  }
+
+}
+
+.admin-shell .status-tag.gray,.qivo-admin-theme .status-tag.gray {
+  background:#f2f4f7;
+  color:#8993a2
+}
+
+.admin-shell .status-tag.amber,.qivo-admin-theme .status-tag.amber {
+  background:#fbf5e9;
+  color:#976d27
+}
+
+.admin-shell .product-image,.qivo-admin-theme .el-drawer .product-image {
+  background:#f5f6f8
+}
+
+.admin-shell .cell-product strong {
+  color:#303c50
+}
+
+.admin-shell .spec-preview {
+  background:#f6f8fb
+}
+
+
+.admin-shell .filter-row .el-button[type="submit"] {
+  background: var(--admin-accent);
+  border-color: var(--admin-accent);
+  color: #fff;
+}
+.admin-shell .filter-row .el-button[type="submit"]:hover {
+  background: #1d48ba;
+}

@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="600" viewBox="0 0 600 600">
+  <rect width="600" height="600" rx="24" fill="#f1f5f3"/>
+  <g fill="none" stroke="#a3b9ae" stroke-width="5" stroke-linejoin="round">
+    <path d="m220 245 80-45 80 45-80 45z"/>
+    <path d="M220 245v100l80 45 80-45V245M300 290v100"/>
+    <path d="m260 222 80 45"/>
+  </g>
+  <text x="300" y="445" text-anchor="middle" font-family="system-ui,sans-serif" font-size="22" fill="#728b7e">暂无商品图片</text>
+</svg>
