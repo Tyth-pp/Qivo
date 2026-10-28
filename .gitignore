@@ -1,0 +1,15 @@
+# 本机备份、凭据及开发账号说明不入版本库
+/backups/
+/.local/
+
+# 本地文档、个人资料及非运行素材
+/docs/
+/.agents/
+**/AGENTS.md
+/assets/*.zip
+/assets/demo-catalog-v1/
+/scripts/*Qivo*
+**/.env
+**/.env.*
+*.pem
+*.key
