@@ -1,0 +1,202 @@
+[
+  {
+    "key": "mechanical-keyboard",
+    "file": "keyboards/qivo-mechanical-keyboard.webp",
+    "alt": "浅灰背景上的栖物机械键盘"
+  },
+  {
+    "key": "wireless-mouse",
+    "file": "keyboards/qivo-wireless-mouse.webp",
+    "alt": "浅灰背景上的轻巧无线鼠标"
+  },
+  {
+    "key": "desktop-organizer",
+    "file": "storage/qivo-desktop-organizer.webp",
+    "alt": "浅灰背景上的桌面收纳盒"
+  },
+  {
+    "key": "insulated-tumbler",
+    "file": "drinkware/qivo-insulated-tumbler.webp",
+    "alt": "浅灰背景上的便携保温杯"
+  },
+  {
+    "key": "airbook-14",
+    "file": "computers/qivo-airbook-14.webp",
+    "alt": "浅灰背景上的捷跃 AirBook 14 轻薄笔记本"
+  },
+  {
+    "key": "compact-mechanical-keyboard",
+    "file": "keyboards/qivo-compact-mechanical-keyboard.webp",
+    "alt": "浅灰背景上的75% 机械键盘"
+  },
+  {
+    "key": "vacuum-flask",
+    "file": "drinkware/qivo-vacuum-flask.webp",
+    "alt": "浅灰背景上的真空保温杯"
+  },
+  {
+    "key": "walnut-organizer",
+    "file": "storage/qivo-walnut-organizer.webp",
+    "alt": "浅灰背景上的胡桃木桌面收纳座"
+  },
+  {
+    "key": "ivory-wireless-mouse",
+    "file": "keyboards/qivo-ivory-wireless-mouse.webp",
+    "alt": "浅灰背景上的米白轻巧无线鼠标"
+  },
+  {
+    "key": "adjustable-desk-lamp",
+    "file": "lighting/qivo-adjustable-desk-lamp.webp",
+    "alt": "浅灰背景上的可调节桌面台灯"
+  },
+  {
+    "key": "slim-wireless-keyboard",
+    "file": "keyboards/qivo-slim-wireless-keyboard.webp",
+    "alt": "浅灰背景上的轻薄无线键盘"
+  },
+  {
+    "key": "ergonomic-wired-mouse",
+    "file": "keyboards/qivo-ergonomic-wired-mouse.webp",
+    "alt": "浅灰背景上的弧面有线鼠标"
+  },
+  {
+    "key": "wireless-number-pad",
+    "file": "keyboards/qivo-wireless-number-pad.webp",
+    "alt": "浅灰背景上的独立无线数字键盘"
+  },
+  {
+    "key": "trackball-mouse",
+    "file": "keyboards/qivo-trackball-mouse.webp",
+    "alt": "浅灰背景上的轨迹球鼠标"
+  },
+  {
+    "key": "aluminum-laptop-stand",
+    "file": "computers/qivo-aluminum-laptop-stand.webp",
+    "alt": "浅灰背景上的铝合金笔记本支架"
+  },
+  {
+    "key": "usb-c-hub",
+    "file": "computers/qivo-usb-c-hub.webp",
+    "alt": "浅灰背景上的便携多接口扩展坞"
+  },
+  {
+    "key": "felt-desk-mat",
+    "file": "computers/qivo-felt-desk-mat.webp",
+    "alt": "浅灰背景上的羊毛毡桌面垫"
+  },
+  {
+    "key": "wood-monitor-riser",
+    "file": "computers/qivo-wood-monitor-riser.webp",
+    "alt": "浅灰背景上的木质显示器增高架"
+  },
+  {
+    "key": "cable-sleeve",
+    "file": "computers/qivo-cable-sleeve.webp",
+    "alt": "浅灰背景上的编织理线套管"
+  },
+  {
+    "key": "portable-solid-state-drive",
+    "file": "computers/qivo-portable-solid-state-drive.webp",
+    "alt": "浅灰背景上的便携固态移动硬盘"
+  },
+  {
+    "key": "laptop-sleeve",
+    "file": "computers/qivo-laptop-sleeve.webp",
+    "alt": "浅灰背景上的织物笔记本内胆包"
+  },
+  {
+    "key": "ceramic-mug",
+    "file": "drinkware/qivo-ceramic-mug.webp",
+    "alt": "浅灰背景上的磨砂陶瓷马克杯"
+  },
+  {
+    "key": "glass-tumbler",
+    "file": "drinkware/qivo-glass-tumbler.webp",
+    "alt": "浅灰背景上的直身玻璃饮水杯"
+  },
+  {
+    "key": "travel-coffee-cup",
+    "file": "drinkware/qivo-travel-coffee-cup.webp",
+    "alt": "浅灰背景上的随行咖啡杯"
+  },
+  {
+    "key": "glass-carafe",
+    "file": "drinkware/qivo-glass-carafe.webp",
+    "alt": "浅灰背景上的玻璃冷水壶"
+  },
+  {
+    "key": "sports-water-bottle",
+    "file": "drinkware/qivo-sports-water-bottle.webp",
+    "alt": "浅灰背景上的轻量运动水杯"
+  },
+  {
+    "key": "espresso-cup-set",
+    "file": "drinkware/qivo-espresso-cup-set.webp",
+    "alt": "浅灰背景上的陶瓷浓缩咖啡杯组"
+  },
+  {
+    "key": "metal-pen-cup",
+    "file": "storage/qivo-metal-pen-cup.webp",
+    "alt": "浅灰背景上的金属圆筒笔筒"
+  },
+  {
+    "key": "felt-tray",
+    "file": "storage/qivo-felt-tray.webp",
+    "alt": "浅灰背景上的毛毡桌面托盘"
+  },
+  {
+    "key": "drawer-organizer",
+    "file": "storage/qivo-drawer-organizer.webp",
+    "alt": "浅灰背景上的透明抽屉分隔盒"
+  },
+  {
+    "key": "wood-document-tray",
+    "file": "storage/qivo-wood-document-tray.webp",
+    "alt": "浅灰背景上的木质文件托盘"
+  },
+  {
+    "key": "cable-storage-box",
+    "file": "storage/qivo-cable-storage-box.webp",
+    "alt": "浅灰背景上的桌面电线收纳盒"
+  },
+  {
+    "key": "slim-bookends",
+    "file": "storage/qivo-slim-bookends.webp",
+    "alt": "浅灰背景上的薄型金属书立"
+  },
+  {
+    "key": "monitor-light-bar",
+    "file": "lighting/qivo-monitor-light-bar.webp",
+    "alt": "浅灰背景上的屏幕挂灯"
+  },
+  {
+    "key": "mushroom-table-lamp",
+    "file": "lighting/qivo-mushroom-table-lamp.webp",
+    "alt": "浅灰背景上的蘑菇造型桌灯"
+  },
+  {
+    "key": "gooseneck-reading-lamp",
+    "file": "lighting/qivo-gooseneck-reading-lamp.webp",
+    "alt": "浅灰背景上的软管阅读台灯"
+  },
+  {
+    "key": "portable-night-light",
+    "file": "lighting/qivo-portable-night-light.webp",
+    "alt": "浅灰背景上的便携小夜灯"
+  },
+  {
+    "key": "clip-reading-lamp",
+    "file": "lighting/qivo-clip-reading-lamp.webp",
+    "alt": "浅灰背景上的夹式阅读灯"
+  },
+  {
+    "key": "linear-desk-lamp",
+    "file": "lighting/qivo-linear-desk-lamp.webp",
+    "alt": "浅灰背景上的长条护眼桌灯"
+  },
+  {
+    "key": "wall-reading-lamp",
+    "file": "lighting/qivo-wall-reading-lamp.webp",
+    "alt": "浅灰背景上的壁挂阅读灯"
+  }
+]
