@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.qivo.mapper.PermissionMapper">
+
+    <select id="selectAll" resultType="com.qivo.entity.Permission">
+        SELECT * FROM permission ORDER BY sort_order
+    </select>
+
+    <select id="selectByRoleId" resultType="com.qivo.entity.Permission">
+        SELECT p.* FROM permission p
+        INNER JOIN role_permission rp ON p.id = rp.permission_id
+        WHERE rp.role_id = #{roleId}
+        ORDER BY p.sort_order
+    </select>
+
+    <delete id="deleteRolePermissions">
+        DELETE FROM role_permission WHERE role_id = #{roleId}
+    </delete>
+
+    <insert id="insertRolePermission">
+        INSERT INTO role_permission (role_id, permission_id) VALUES (#{roleId}, #{permissionId})
+    </insert>
+
+</mapper>

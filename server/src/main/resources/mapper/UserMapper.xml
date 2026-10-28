@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.qivo.mapper.UserMapper">
+
+    <select id="selectById" resultType="com.qivo.entity.User">
+        SELECT * FROM user WHERE id = #{id}
+    </select>
+
+    <select id="selectByUsername" resultType="com.qivo.entity.User">
+        SELECT * FROM user WHERE username = #{username}
+    </select>
+
+    <insert id="insert" parameterType="com.qivo.entity.User" useGeneratedKeys="true" keyProperty="id">
+        INSERT INTO user (username, password, email, phone, avatar, score, status, create_time, update_time)
+        VALUES (#{username}, #{password}, #{email}, #{phone}, #{avatar}, #{score}, #{status}, NOW(), NOW())
+    </insert>
+
+    <update id="update" parameterType="com.qivo.entity.User">
+        UPDATE user
+        <set>
+            <if test="email != null">email = #{email},</if>
+            <if test="phone != null">phone = #{phone},</if>
+            <if test="avatar != null">avatar = #{avatar},</if>
+            <if test="password != null">password = #{password},</if>
+            <if test="status != null">status = #{status},</if>
+            update_time = NOW()
+        </set>
+        WHERE id = #{id}
+    </update>
+
+    <select id="selectPage" resultType="com.qivo.entity.User">
+        SELECT * FROM user
+        <where>
+            <if test="keyword != null and keyword != ''">
+                AND (username LIKE CONCAT('%', #{keyword}, '%')
+                OR phone LIKE CONCAT('%', #{keyword}, '%')
+                OR email LIKE CONCAT('%', #{keyword}, '%'))
+            </if>
+        </where>
+        ORDER BY create_time DESC, id DESC
+    </select>
+
+    <update id="updateStatus">
+        UPDATE user SET status = #{status}, update_time = NOW() WHERE id = #{id}
+    </update>
+
+    <update id="updateScore">
+        UPDATE user SET score = #{score}, update_time = NOW() WHERE id = #{id}
+    </update>
+
+</mapper>

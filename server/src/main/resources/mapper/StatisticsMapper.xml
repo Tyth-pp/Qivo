@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.qivo.mapper.StatisticsMapper">
+
+    <select id="dashboard" resultType="java.util.HashMap">
+        SELECT
+            (SELECT COUNT(*) FROM `order` WHERE DATE(create_time) = CURDATE()) AS todayOrders,
+            (SELECT IFNULL(SUM(total_amount), 0) FROM `order` WHERE DATE(create_time) = CURDATE() AND pay_status = 1) AS todayRevenue,
+            (SELECT COUNT(*) FROM `user` WHERE DATE(create_time) = CURDATE()) AS newUsers,
+            (SELECT COUNT(*) FROM product WHERE status = 1) AS totalProducts
+    </select>
+
+    <select id="salesByDay" resultType="java.util.HashMap">
+        SELECT DATE(create_time) AS date, COUNT(*) AS count, IFNULL(SUM(total_amount), 0) AS amount
+        FROM `order`
+        WHERE pay_status = 1 AND create_time BETWEEN #{startDate} AND #{endDate}
+        GROUP BY DATE(create_time)
+        ORDER BY date
+    </select>
+
+    <select id="salesByMonth" resultType="java.util.HashMap">
+        SELECT MONTH(create_time) AS month, COUNT(*) AS count, IFNULL(SUM(total_amount), 0) AS amount
+        FROM `order`
+        WHERE pay_status = 1 AND YEAR(create_time) = #{year}
+        GROUP BY MONTH(create_time)
+        ORDER BY month
+    </select>
+
+    <select id="userRegByDay" resultType="java.util.HashMap">
+        SELECT DATE(create_time) AS date, COUNT(*) AS count
+        FROM `user`
+        WHERE create_time BETWEEN #{startDate} AND #{endDate}
+        GROUP BY DATE(create_time)
+        ORDER BY date
+    </select>
+
+    <select id="revenueByMonth" resultType="java.util.HashMap">
+        SELECT MONTH(create_time) AS month, IFNULL(SUM(total_amount), 0) AS amount
+        FROM `order`
+        WHERE pay_status = 1 AND YEAR(create_time) = #{year}
+        GROUP BY MONTH(create_time)
+        ORDER BY month
+    </select>
+
+    <select id="countTodayOrders" resultType="java.lang.Integer">
+        SELECT COUNT(*) FROM `order` WHERE DATE(create_time) = CURDATE()
+    </select>
+
+    <select id="todayRevenue" resultType="java.math.BigDecimal">
+        SELECT IFNULL(SUM(total_amount), 0) FROM `order` WHERE DATE(create_time) = CURDATE() AND pay_status = 1
+    </select>
+
+    <select id="countNewUsersToday" resultType="java.lang.Integer">
+        SELECT COUNT(*) FROM `user` WHERE DATE(create_time) = CURDATE()
+    </select>
+
+    <select id="countTotalProducts" resultType="java.lang.Integer">
+        SELECT COUNT(*) FROM product WHERE status = 1
+    </select>
+
+    <!-- 工作台 -->
+    <select id="workbench" resultType="java.util.HashMap">
+        SELECT
+            (SELECT IFNULL(SUM(total_amount), 0) FROM `order` WHERE DATE(create_time) = CURDATE() AND pay_status = 1) AS todayRevenue,
+            (SELECT COUNT(*) FROM `order` WHERE DATE(create_time) = CURDATE() AND pay_status = 1) AS validOrders,
+            (SELECT COUNT(*) FROM `order` WHERE DATE(create_time) = CURDATE()) AS totalOrders,
+            (SELECT COUNT(*) FROM `order` WHERE DATE(create_time) = CURDATE() AND pay_status = 0) AS unpaidOrders,
+            (SELECT COUNT(*) FROM `order` WHERE DATE(create_time) = CURDATE() AND pay_status = 1) AS paidOrders,
+            (SELECT COUNT(*) FROM product WHERE status = 1) AS onShelf,
+            (SELECT COUNT(*) FROM product WHERE status = 0) AS offShelf
+    </select>
+
+    <!-- 商品销量 TOP10 -->
+    <select id="productSalesTop10" resultType="java.util.HashMap">
+        SELECT name, sales FROM product WHERE status = 1 ORDER BY sales DESC LIMIT 10
+    </select>
+
+    <!-- 订单总数 -->
+    <select id="countTotalOrders" resultType="java.lang.Long">
+        SELECT COUNT(*) FROM `order`
+    </select>
+
+    <!-- 有效订单数（已支付） -->
+    <select id="countValidOrders" resultType="java.lang.Long">
+        SELECT COUNT(*) FROM `order` WHERE pay_status = 1
+    </select>
+
+    <!-- 营业额统计（按月） -->
+    <select id="revenueStats" resultType="java.util.HashMap">
+        SELECT DATE_FORMAT(create_time, '%Y-%m') AS month, IFNULL(SUM(total_amount), 0) AS amount
+        FROM `order` WHERE pay_status = 1
+        GROUP BY DATE_FORMAT(create_time, '%Y-%m')
+        ORDER BY month
+    </select>
+
+</mapper>

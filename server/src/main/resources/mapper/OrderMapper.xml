@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.qivo.mapper.OrderMapper">
+
+    <resultMap id="OrderResultMap" type="com.qivo.entity.Order">
+        <id property="id" column="id"/>
+        <result property="orderNo" column="order_no"/>
+        <result property="userId" column="user_id"/>
+        <result property="totalAmount" column="total_amount"/>
+        <result property="payStatus" column="pay_status"/>
+        <result property="shipStatus" column="ship_status"/>
+        <result property="addressId" column="address_id"/>
+        <result property="receiverName" column="receiver_name"/>
+        <result property="receiverPhone" column="receiver_phone"/>
+        <result property="receiverAddressSnapshot" column="receiver_address_snapshot"/>
+        <result property="addressSnapshotSource" column="address_snapshot_source"/>
+        <result property="trackingNo" column="tracking_no"/>
+        <result property="remark" column="remark"/>
+        <result property="payTime" column="pay_time"/>
+        <result property="shipTime" column="ship_time"/>
+        <result property="createTime" column="create_time"/>
+        <result property="updateTime" column="update_time"/>
+    </resultMap>
+
+    <select id="selectById" resultMap="OrderResultMap">
+        SELECT * FROM `order` WHERE id = #{id}
+    </select>
+
+    <select id="selectByOrderNo" resultMap="OrderResultMap">
+        SELECT * FROM `order` WHERE order_no = #{orderNo}
+    </select>
+
+    <select id="selectPage" resultMap="OrderResultMap">
+        SELECT * FROM `order`
+        <where>
+            <if test="orderNo != null and orderNo != ''">
+                AND order_no LIKE CONCAT('%', #{orderNo}, '%')
+            </if>
+            <if test="status != null">
+                AND pay_status = #{status}
+            </if>
+            <if test="startTime != null and startTime != ''">
+                AND create_time &gt;= #{startTime}
+            </if>
+            <if test="endTime != null and endTime != ''">
+                AND create_time &lt;= #{endTime}
+            </if>
+        </where>
+        ORDER BY create_time DESC, id DESC
+    </select>
+
+    <select id="selectByUserId" resultMap="OrderResultMap">
+        SELECT * FROM `order`
+        WHERE user_id = #{userId}
+        <if test="status != null">
+            AND pay_status = #{status}
+        </if>
+        ORDER BY create_time DESC, id DESC
+    </select>
+
+    <select id="selectUnpaidBefore" resultMap="OrderResultMap">
+        SELECT * FROM `order`
+        WHERE pay_status = 0
+          AND create_time &lt;= #{expireTime}
+        ORDER BY create_time ASC, id ASC
+    </select>
+
+    <insert id="insert" parameterType="com.qivo.entity.Order" useGeneratedKeys="true" keyProperty="id">
+        INSERT INTO `order` (order_no, user_id, total_amount, pay_status, ship_status, address_id, remark, receiver_name, receiver_phone, receiver_address_snapshot, address_snapshot_source, create_time, update_time)
+        VALUES (#{orderNo}, #{userId}, #{totalAmount}, #{payStatus}, #{shipStatus}, #{addressId}, #{remark}, #{receiverName}, #{receiverPhone}, #{receiverAddressSnapshot}, #{addressSnapshotSource}, NOW(), NOW())
+    </insert>
+
+    <update id="updatePrice">
+        UPDATE `order` SET total_amount = #{totalAmount}, update_time = NOW() WHERE id = #{id}
+    </update>
+
+    <update id="updatePayStatus">
+        UPDATE `order` SET pay_status = #{payStatus},
+        <if test="payStatus == 1">pay_time = NOW(),</if>
+        update_time = NOW() WHERE id = #{id}
+    </update>
+
+    <update id="payUnpaid">
+        UPDATE `order`
+        SET pay_status = 1, pay_time = NOW(), update_time = NOW()
+        WHERE id = #{id} AND pay_status = 0 AND ship_status = 0
+    </update>
+
+    <update id="cancelUnpaid">
+        UPDATE `order`
+        SET pay_status = 3, update_time = NOW()
+        WHERE id = #{id} AND pay_status = 0 AND ship_status = 0
+    </update>
+
+    <update id="updateShipStatus">
+        UPDATE `order` SET ship_status = #{shipStatus},
+        <if test="shipStatus == 1">ship_time = NOW(),</if>
+        <if test="trackingNo != null and trackingNo != ''">tracking_no = #{trackingNo},</if>
+        update_time = NOW() WHERE id = #{id}
+    </update>
+
+</mapper>

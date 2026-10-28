@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.qivo.mapper.BannerMapper">
+
+    <select id="selectAllEnabled" resultType="com.qivo.entity.Banner">
+        SELECT * FROM banner WHERE status = 1 ORDER BY sort_order
+    </select>
+
+    <select id="selectAll" resultType="com.qivo.entity.Banner">
+        SELECT * FROM banner ORDER BY sort_order
+    </select>
+
+    <select id="selectById" resultType="com.qivo.entity.Banner">
+        SELECT * FROM banner WHERE id = #{id}
+    </select>
+
+    <insert id="insert" parameterType="com.qivo.entity.Banner" useGeneratedKeys="true" keyProperty="id">
+        INSERT INTO banner (title, img_url, link_url, sort_order, status, create_time)
+        VALUES (#{title}, #{imgUrl}, #{linkUrl}, #{sortOrder}, #{status}, NOW())
+    </insert>
+
+    <update id="update" parameterType="com.qivo.entity.Banner">
+        UPDATE banner
+        <set>
+            <if test="title != null">title = #{title},</if>
+            <if test="imgUrl != null">img_url = #{imgUrl},</if>
+            <if test="linkUrl != null">link_url = #{linkUrl},</if>
+            <if test="sortOrder != null">sort_order = #{sortOrder},</if>
+            <if test="status != null">status = #{status},</if>
+        </set>
+        WHERE id = #{id}
+    </update>
+
+    <delete id="deleteById">
+        DELETE FROM banner WHERE id = #{id}
+    </delete>
+
+</mapper>

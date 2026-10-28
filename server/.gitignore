@@ -1,0 +1,13 @@
+target/
+!.mvn/wrapper/maven-wrapper.jar
+*.class
+*.jar
+*.war
+*.log
+*.iml
+.idea/
+.vscode/
+logs/
+
+# 本地凭据不入库；已跟踪文件需由使用者另行清理历史
+**/src/main/resources/application-dev.yml

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="benchmark.Baseline">
+
+<select id="selectPage" resultType="com.qivo.entity.Product">
+        SELECT p.id,p.name,p.description,p.category_id,p.main_image,p.sales,p.status,p.spec_mode,p.spec_definition,
+        p.create_time,p.update_time,s.min_price AS price,s.max_price,s.total_stock,
+        LEAST(COALESCE(s.total_stock,0),2147483647) AS stock,
+        CASE WHEN p.spec_mode='SINGLE' THEN s.default_sku_id ELSE NULL END AS default_sku_id
+        FROM product p LEFT JOIN (
+          SELECT product_id,MIN(price) min_price,MAX(price) max_price,SUM(stock) total_stock,
+          MAX(CASE WHEN spec_key='DEFAULT' THEN id ELSE NULL END) default_sku_id
+          FROM product_sku WHERE status='ENABLED' GROUP BY product_id
+        ) s ON s.product_id=p.id
+        <where>
+            <if test="keyword != null and keyword != ''">
+                AND p.name LIKE CONCAT('%', #{keyword}, '%')
+            </if>
+            <if test="categoryId != null">
+                AND p.category_id IN (SELECT id FROM product_category WHERE id = #{categoryId} OR parent_id = #{categoryId})
+            </if>
+            <if test="status != null">
+                AND p.status = #{status}
+                <if test="status == 1">AND s.product_id IS NOT NULL</if>
+            </if>
+        </where>
+        <choose>
+            <when test="sort == 'price_asc'">ORDER BY s.min_price ASC, p.id ASC</when>
+            <when test="sort == 'price_desc'">ORDER BY s.min_price DESC, p.id DESC</when>
+            <when test="sort == 'sales'">ORDER BY p.sales DESC, p.id DESC</when>
+            <otherwise>ORDER BY p.create_time DESC, p.id DESC</otherwise>
+        </choose>
+    </select>
+
+</mapper>

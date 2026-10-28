@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.qivo.mapper.ProductCommentMapper">
+
+    <select id="selectByProductId" resultType="com.qivo.entity.ProductComment">
+        SELECT pc.*, u.username
+        FROM product_comment pc
+        LEFT JOIN `user` u ON pc.user_id = u.id
+        WHERE pc.product_id = #{productId}
+        ORDER BY pc.create_time DESC, pc.id DESC
+    </select>
+
+    <select id="selectByOrderId" resultType="com.qivo.entity.ProductComment">
+        SELECT * FROM product_comment WHERE order_id = #{orderId}
+    </select>
+
+    <select id="selectById" resultType="com.qivo.entity.ProductComment">
+        SELECT * FROM product_comment WHERE id = #{id}
+    </select>
+
+    <select id="selectByOrderAndProduct" resultType="com.qivo.entity.ProductComment">
+        SELECT * FROM product_comment
+        WHERE order_id = #{orderId} AND product_id = #{productId}
+        LIMIT 1
+    </select>
+
+    <insert id="insert" parameterType="com.qivo.entity.ProductComment" useGeneratedKeys="true" keyProperty="id">
+        INSERT INTO product_comment (user_id, product_id, order_id, rating, content, pics, create_time)
+        VALUES (#{userId}, #{productId}, #{orderId}, #{rating}, #{content}, #{pics}, NOW())
+    </insert>
+
+    <update id="updateAppend">
+        UPDATE product_comment SET append_content = #{appendContent}, append_time = NOW() WHERE id = #{id}
+    </update>
+
+</mapper>

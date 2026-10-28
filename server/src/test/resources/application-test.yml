@@ -1,0 +1,32 @@
+spring:
+  datasource:
+    type: com.zaxxer.hikari.HikariDataSource
+    driver-class-name: org.h2.Driver
+    url: jdbc:h2:mem:qivo;MODE=MySQL;DB_CLOSE_DELAY=-1;DATABASE_TO_LOWER=TRUE;NON_KEYWORDS=USER
+    username: sa
+    password: ""
+    hikari:
+      minimum-idle: 0
+      maximum-pool-size: 3
+  flyway:
+    enabled: false
+  sql:
+    init:
+      mode: always
+      schema-locations: classpath:test-schema.sql
+  data:
+    redis:
+      host: localhost
+      port: 6379
+      password: ""
+jwt:
+  secret: qivo-test-only-secret-never-use-in-production-2026
+qivo:
+  api-docs:
+    enabled: false
+  swagger-ui:
+    enabled: false
+  order-timeout:
+    enabled: false
+  upload:
+    path: ./target/test-uploads/

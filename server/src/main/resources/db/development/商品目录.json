@@ -1,0 +1,1413 @@
+{
+  "version": 2,
+  "categories": [
+    {
+      "key": "digital",
+      "name": "数码办公",
+      "parent": null,
+      "previousNames": [],
+      "order": 1,
+      "image": null
+    },
+    {
+      "key": "home",
+      "name": "居家生活",
+      "parent": null,
+      "previousNames": [],
+      "order": 2,
+      "image": null
+    },
+    {
+      "key": "keyboards",
+      "name": "键盘鼠标",
+      "parent": "digital",
+      "previousNames": [],
+      "order": 1,
+      "image": "keyboards/qivo-mechanical-keyboard.webp"
+    },
+    {
+      "key": "computers",
+      "name": "电脑与配件",
+      "parent": "digital",
+      "previousNames": [
+        "桌面设备"
+      ],
+      "order": 2,
+      "image": "computers/qivo-airbook-14.webp"
+    },
+    {
+      "key": "drinkware",
+      "name": "杯具",
+      "parent": "home",
+      "previousNames": [
+        "日用器物"
+      ],
+      "order": 1,
+      "image": "drinkware/qivo-vacuum-flask.webp"
+    },
+    {
+      "key": "storage",
+      "name": "桌面收纳",
+      "parent": "home",
+      "previousNames": [
+        "日用好物"
+      ],
+      "order": 2,
+      "image": "storage/qivo-desktop-organizer.webp"
+    },
+    {
+      "key": "lighting",
+      "name": "照明",
+      "parent": "home",
+      "previousNames": [
+        "收纳与照明"
+      ],
+      "order": 3,
+      "image": "lighting/qivo-adjustable-desk-lamp.webp"
+    }
+  ],
+  "products": [
+    {
+      "key": "mechanical-keyboard",
+      "name": "栖物机械键盘",
+      "category": "keyboards",
+      "description": "紧凑布局，有线连接。",
+      "image": "keyboards/qivo-mechanical-keyboard.webp",
+      "alt": "浅灰背景上的栖物机械键盘",
+      "status": 1,
+      "definitions": [],
+      "skus": [
+        {
+          "suffix": "DEFAULT",
+          "selections": [],
+          "price": "199.00",
+          "stock": 50,
+          "status": "ENABLED"
+        }
+      ],
+      "aliases": [
+        "QIVO-DEFAULT-1"
+      ],
+      "legacyImage": "/upload/products/keyboards/qivo-mechanical-keyboard-cover-v1.png"
+    },
+    {
+      "key": "wireless-mouse",
+      "name": "轻巧无线鼠标",
+      "category": "keyboards",
+      "description": "简洁弧面，适合日常办公。",
+      "image": "keyboards/qivo-wireless-mouse.webp",
+      "alt": "浅灰背景上的轻巧无线鼠标",
+      "status": 1,
+      "definitions": [],
+      "skus": [
+        {
+          "suffix": "DEFAULT",
+          "selections": [],
+          "price": "79.00",
+          "stock": 80,
+          "status": "ENABLED"
+        }
+      ],
+      "aliases": [
+        "QIVO-DEFAULT-2"
+      ],
+      "legacyImage": "/upload/products/mice/light-wireless-mouse-cover-v1.png"
+    },
+    {
+      "key": "desktop-organizer",
+      "name": "桌面收纳盒",
+      "category": "storage",
+      "description": "开放分区便于整理常用桌面小物。",
+      "image": "storage/qivo-desktop-organizer.webp",
+      "alt": "浅灰背景上的桌面收纳盒",
+      "status": 1,
+      "definitions": [],
+      "skus": [
+        {
+          "suffix": "DEFAULT",
+          "selections": [],
+          "price": "39.00",
+          "stock": 100,
+          "status": "ENABLED"
+        }
+      ],
+      "aliases": [
+        "QIVO-DEFAULT-3"
+      ],
+      "legacyImage": "/upload/products/desktop-organizers/desktop-organizer-cover-v1.png"
+    },
+    {
+      "key": "insulated-tumbler",
+      "name": "便携保温杯",
+      "category": "drinkware",
+      "description": "简洁杯身，方便日常随行。",
+      "image": "drinkware/qivo-insulated-tumbler.webp",
+      "alt": "浅灰背景上的便携保温杯",
+      "status": 1,
+      "definitions": [],
+      "skus": [
+        {
+          "suffix": "DEFAULT",
+          "selections": [],
+          "price": "89.00",
+          "stock": 60,
+          "status": "ENABLED"
+        }
+      ],
+      "aliases": [
+        "QIVO-DEFAULT-4"
+      ],
+      "legacyImage": "/upload/products/tumblers/portable-insulated-tumbler-cover-v1.png"
+    },
+    {
+      "key": "airbook-14",
+      "name": "捷跃 AirBook 14 轻薄笔记本",
+      "category": "computers",
+      "description": "轻薄机身与简洁外观，适合日常桌面办公。",
+      "image": "computers/qivo-airbook-14.webp",
+      "alt": "浅灰背景上的捷跃 AirBook 14 轻薄笔记本",
+      "status": 1,
+      "definitions": [],
+      "skus": [
+        {
+          "suffix": "DEFAULT",
+          "selections": [],
+          "price": "19.00",
+          "stock": 10,
+          "status": "ENABLED"
+        }
+      ],
+      "aliases": [
+        "QIVO-DEFAULT-5"
+      ],
+      "legacyImage": "/upload/products/laptops/airbook-14-cover-v1.png"
+    },
+    {
+      "key": "compact-mechanical-keyboard",
+      "name": "75% 机械键盘",
+      "category": "keyboards",
+      "description": "紧凑配列与双拼色键帽，适合保持桌面整洁。",
+      "image": "keyboards/qivo-compact-mechanical-keyboard.webp",
+      "alt": "浅灰背景上的75% 机械键盘",
+      "status": 1,
+      "definitions": [
+        {
+          "id": "color",
+          "name": "配色",
+          "values": [
+            {
+              "id": "blue",
+              "name": "雾蓝"
+            },
+            {
+              "id": "black",
+              "name": "曜黑"
+            }
+          ]
+        }
+      ],
+      "skus": [
+        {
+          "suffix": "BLUE",
+          "selections": [
+            {
+              "specId": "color",
+              "valueId": "blue"
+            }
+          ],
+          "price": "299.00",
+          "stock": 18,
+          "status": "ENABLED"
+        },
+        {
+          "suffix": "BLACK",
+          "selections": [
+            {
+              "specId": "color",
+              "valueId": "black"
+            }
+          ],
+          "price": "319.00",
+          "stock": 0,
+          "status": "DISABLED"
+        }
+      ],
+      "aliases": [
+        "QIVO-DEMO-V1-KEYBOARD-BLUE",
+        "QIVO-DEMO-V1-KEYBOARD-BLACK"
+      ],
+      "legacyImage": "/upload/qivo-demo-catalog-v1/desk-keyboard.webp"
+    },
+    {
+      "key": "vacuum-flask",
+      "name": "真空保温杯",
+      "category": "drinkware",
+      "description": "哑光杯身与旋盖设计，提供两种容量。",
+      "image": "drinkware/qivo-vacuum-flask.webp",
+      "alt": "浅灰背景上的真空保温杯",
+      "status": 1,
+      "definitions": [
+        {
+          "id": "capacity",
+          "name": "容量",
+          "values": [
+            {
+              "id": "small",
+              "name": "350 毫升"
+            },
+            {
+              "id": "large",
+              "name": "500 毫升"
+            }
+          ]
+        }
+      ],
+      "skus": [
+        {
+          "suffix": "SMALL",
+          "selections": [
+            {
+              "specId": "capacity",
+              "valueId": "small"
+            }
+          ],
+          "price": "89.00",
+          "stock": 28,
+          "status": "ENABLED"
+        },
+        {
+          "suffix": "LARGE",
+          "selections": [
+            {
+              "specId": "capacity",
+              "valueId": "large"
+            }
+          ],
+          "price": "99.00",
+          "stock": 12,
+          "status": "ENABLED"
+        }
+      ],
+      "aliases": [
+        "QIVO-DEMO-V1-BOTTLE-SMALL",
+        "QIVO-DEMO-V1-BOTTLE-LARGE"
+      ],
+      "legacyImage": "/upload/qivo-demo-catalog-v1/vacuum-bottle.webp"
+    },
+    {
+      "key": "walnut-organizer",
+      "name": "胡桃木桌面收纳座",
+      "category": "storage",
+      "description": "三个开放分区收纳常用小物，适合书桌与工作台。",
+      "image": "storage/qivo-walnut-organizer.webp",
+      "alt": "浅灰背景上的胡桃木桌面收纳座",
+      "status": 1,
+      "definitions": [],
+      "skus": [
+        {
+          "suffix": "DEFAULT",
+          "selections": [],
+          "price": "69.00",
+          "stock": 20,
+          "status": "ENABLED"
+        }
+      ],
+      "aliases": [
+        "QIVO-DEMO-V1-ORGANIZER-DEFAULT"
+      ],
+      "legacyImage": "/upload/qivo-demo-catalog-v1/desk-organizer.webp"
+    },
+    {
+      "key": "ivory-wireless-mouse",
+      "name": "米白轻巧无线鼠标",
+      "category": "keyboards",
+      "description": "简洁弧线与柔和表面处理，适合日常办公与居家使用。",
+      "image": "keyboards/qivo-ivory-wireless-mouse.webp",
+      "alt": "浅灰背景上的米白轻巧无线鼠标",
+      "status": 1,
+      "definitions": [],
+      "skus": [
+        {
+          "suffix": "DEFAULT",
+          "selections": [],
+          "price": "79.00",
+          "stock": 0,
+          "status": "ENABLED"
+        }
+      ],
+      "aliases": [
+        "QIVO-DEMO-V1-MOUSE-DEFAULT"
+      ],
+      "legacyImage": "/upload/qivo-demo-catalog-v1/wireless-mouse.webp"
+    },
+    {
+      "key": "adjustable-desk-lamp",
+      "name": "可调节桌面台灯",
+      "category": "lighting",
+      "description": "金属灯臂可调节照明角度，适合桌面阅读与工作。",
+      "image": "lighting/qivo-adjustable-desk-lamp.webp",
+      "alt": "浅灰背景上的可调节桌面台灯",
+      "status": 0,
+      "definitions": [],
+      "skus": [
+        {
+          "suffix": "DEFAULT",
+          "selections": [],
+          "price": "169.00",
+          "stock": 8,
+          "status": "ENABLED"
+        }
+      ],
+      "aliases": [
+        "QIVO-DEMO-V1-LAMP-DEFAULT"
+      ],
+      "legacyImage": "/upload/qivo-demo-catalog-v1/task-lamp.webp"
+    },
+    {
+      "key": "slim-wireless-keyboard",
+      "name": "轻薄无线键盘",
+      "category": "keyboards",
+      "description": "低矮键帽搭配窄边框，留出更多桌面操作空间。",
+      "image": "keyboards/qivo-slim-wireless-keyboard.webp",
+      "alt": "浅灰背景上的轻薄无线键盘",
+      "status": 1,
+      "definitions": [
+        {
+          "id": "color",
+          "name": "颜色",
+          "values": [
+            {
+              "id": "gray",
+              "name": "石墨灰"
+            },
+            {
+              "id": "silver",
+              "name": "银白"
+            }
+          ]
+        }
+      ],
+      "skus": [
+        {
+          "suffix": "GRAY",
+          "selections": [
+            {
+              "specId": "color",
+              "valueId": "gray"
+            }
+          ],
+          "price": "159.00",
+          "stock": 22,
+          "status": "ENABLED"
+        },
+        {
+          "suffix": "SILVER",
+          "selections": [
+            {
+              "specId": "color",
+              "valueId": "silver"
+            }
+          ],
+          "price": "169.00",
+          "stock": 22,
+          "status": "ENABLED"
+        }
+      ],
+      "aliases": [],
+      "legacyImage": null
+    },
+    {
+      "key": "ergonomic-wired-mouse",
+      "name": "弧面有线鼠标",
+      "category": "keyboards",
+      "description": "顺手弧面与侧边支撑，连接线便于直接接入电脑。",
+      "image": "keyboards/qivo-ergonomic-wired-mouse.webp",
+      "alt": "浅灰背景上的弧面有线鼠标",
+      "status": 1,
+      "definitions": [],
+      "skus": [
+        {
+          "suffix": "DEFAULT",
+          "selections": [],
+          "price": "69.00",
+          "stock": 35,
+          "status": "ENABLED"
+        }
+      ],
+      "aliases": [],
+      "legacyImage": null
+    },
+    {
+      "key": "wireless-number-pad",
+      "name": "独立无线数字键盘",
+      "category": "keyboards",
+      "description": "独立数字区便于表格录入，可按桌面习惯摆放。",
+      "image": "keyboards/qivo-wireless-number-pad.webp",
+      "alt": "浅灰背景上的独立无线数字键盘",
+      "status": 1,
+      "definitions": [
+        {
+          "id": "color",
+          "name": "颜色",
+          "values": [
+            {
+              "id": "gray",
+              "name": "石墨灰"
+            },
+            {
+              "id": "silver",
+              "name": "银白"
+            }
+          ]
+        }
+      ],
+      "skus": [
+        {
+          "suffix": "GRAY",
+          "selections": [
+            {
+              "specId": "color",
+              "valueId": "gray"
+            }
+          ],
+          "price": "99.00",
+          "stock": 16,
+          "status": "ENABLED"
+        },
+        {
+          "suffix": "SILVER",
+          "selections": [
+            {
+              "specId": "color",
+              "valueId": "silver"
+            }
+          ],
+          "price": "109.00",
+          "stock": 16,
+          "status": "ENABLED"
+        }
+      ],
+      "aliases": [],
+      "legacyImage": null
+    },
+    {
+      "key": "trackball-mouse",
+      "name": "轨迹球鼠标",
+      "category": "keyboards",
+      "description": "通过轨迹球控制指针，适合有限的桌面空间。",
+      "image": "keyboards/qivo-trackball-mouse.webp",
+      "alt": "浅灰背景上的轨迹球鼠标",
+      "status": 0,
+      "definitions": [],
+      "skus": [
+        {
+          "suffix": "DEFAULT",
+          "selections": [],
+          "price": "229.00",
+          "stock": 12,
+          "status": "ENABLED"
+        }
+      ],
+      "aliases": [],
+      "legacyImage": null
+    },
+    {
+      "key": "aluminum-laptop-stand",
+      "name": "铝合金笔记本支架",
+      "category": "computers",
+      "description": "抬高电脑屏幕，折叠关节便于调整摆放角度。",
+      "image": "computers/qivo-aluminum-laptop-stand.webp",
+      "alt": "浅灰背景上的铝合金笔记本支架",
+      "status": 1,
+      "definitions": [
+        {
+          "id": "color",
+          "name": "颜色",
+          "values": [
+            {
+              "id": "gray",
+              "name": "石墨灰"
+            },
+            {
+              "id": "silver",
+              "name": "银白"
+            }
+          ]
+        }
+      ],
+      "skus": [
+        {
+          "suffix": "GRAY",
+          "selections": [
+            {
+              "specId": "color",
+              "valueId": "gray"
+            }
+          ],
+          "price": "129.00",
+          "stock": 24,
+          "status": "ENABLED"
+        },
+        {
+          "suffix": "SILVER",
+          "selections": [
+            {
+              "specId": "color",
+              "valueId": "silver"
+            }
+          ],
+          "price": "139.00",
+          "stock": 24,
+          "status": "ENABLED"
+        }
+      ],
+      "aliases": [],
+      "legacyImage": null
+    },
+    {
+      "key": "usb-c-hub",
+      "name": "便携多接口扩展坞",
+      "category": "computers",
+      "description": "集中常用连接接口，短线设计便于随身收纳。",
+      "image": "computers/qivo-usb-c-hub.webp",
+      "alt": "浅灰背景上的便携多接口扩展坞",
+      "status": 1,
+      "definitions": [],
+      "skus": [
+        {
+          "suffix": "DEFAULT",
+          "selections": [],
+          "price": "119.00",
+          "stock": 32,
+          "status": "ENABLED"
+        }
+      ],
+      "aliases": [],
+      "legacyImage": null
+    },
+    {
+      "key": "felt-desk-mat",
+      "name": "羊毛毡桌面垫",
+      "category": "computers",
+      "description": "柔和毡面与平整轮廓，适合键盘和鼠标的桌面区域。",
+      "image": "computers/qivo-felt-desk-mat.webp",
+      "alt": "浅灰背景上的羊毛毡桌面垫",
+      "status": 1,
+      "definitions": [
+        {
+          "id": "size",
+          "name": "尺寸",
+          "values": [
+            {
+              "id": "standard",
+              "name": "标准款"
+            },
+            {
+              "id": "large",
+              "name": "加大款"
+            }
+          ]
+        }
+      ],
+      "skus": [
+        {
+          "suffix": "STANDARD",
+          "selections": [
+            {
+              "specId": "size",
+              "valueId": "standard"
+            }
+          ],
+          "price": "59.00",
+          "stock": 26,
+          "status": "ENABLED"
+        },
+        {
+          "suffix": "LARGE",
+          "selections": [
+            {
+              "specId": "size",
+              "valueId": "large"
+            }
+          ],
+          "price": "69.00",
+          "stock": 26,
+          "status": "ENABLED"
+        }
+      ],
+      "aliases": [],
+      "legacyImage": null
+    },
+    {
+      "key": "wood-monitor-riser",
+      "name": "木质显示器增高架",
+      "category": "computers",
+      "description": "开放式架下空间，可收纳键盘与常用配件。",
+      "image": "computers/qivo-wood-monitor-riser.webp",
+      "alt": "浅灰背景上的木质显示器增高架",
+      "status": 1,
+      "definitions": [],
+      "skus": [
+        {
+          "suffix": "DEFAULT",
+          "selections": [],
+          "price": "149.00",
+          "stock": 18,
+          "status": "ENABLED"
+        }
+      ],
+      "aliases": [],
+      "legacyImage": null
+    },
+    {
+      "key": "cable-sleeve",
+      "name": "编织理线套管",
+      "category": "computers",
+      "description": "将桌面线材集中收束，柔软套管便于整理走线。",
+      "image": "computers/qivo-cable-sleeve.webp",
+      "alt": "浅灰背景上的编织理线套管",
+      "status": 1,
+      "definitions": [],
+      "skus": [
+        {
+          "suffix": "DEFAULT",
+          "selections": [],
+          "price": "29.00",
+          "stock": 50,
+          "status": "ENABLED"
+        }
+      ],
+      "aliases": [],
+      "legacyImage": null
+    },
+    {
+      "key": "portable-solid-state-drive",
+      "name": "便携固态移动硬盘",
+      "category": "computers",
+      "description": "紧凑金属机身搭配短连接线，方便随行收纳。",
+      "image": "computers/qivo-portable-solid-state-drive.webp",
+      "alt": "浅灰背景上的便携固态移动硬盘",
+      "status": 1,
+      "definitions": [
+        {
+          "id": "capacity",
+          "name": "容量",
+          "values": [
+            {
+              "id": "small",
+              "name": "500 GB"
+            },
+            {
+              "id": "large",
+              "name": "1 TB"
+            }
+          ]
+        }
+      ],
+      "skus": [
+        {
+          "suffix": "SMALL",
+          "selections": [
+            {
+              "specId": "capacity",
+              "valueId": "small"
+            }
+          ],
+          "price": "299.00",
+          "stock": 0,
+          "status": "ENABLED"
+        },
+        {
+          "suffix": "LARGE",
+          "selections": [
+            {
+              "specId": "capacity",
+              "valueId": "large"
+            }
+          ],
+          "price": "309.00",
+          "stock": 0,
+          "status": "ENABLED"
+        }
+      ],
+      "aliases": [],
+      "legacyImage": null
+    },
+    {
+      "key": "laptop-sleeve",
+      "name": "织物笔记本内胆包",
+      "category": "computers",
+      "description": "织物表面搭配柔软内衬，便于分隔收纳电脑。",
+      "image": "computers/qivo-laptop-sleeve.webp",
+      "alt": "浅灰背景上的织物笔记本内胆包",
+      "status": 0,
+      "definitions": [],
+      "skus": [
+        {
+          "suffix": "DEFAULT",
+          "selections": [],
+          "price": "89.00",
+          "stock": 15,
+          "status": "ENABLED"
+        }
+      ],
+      "aliases": [],
+      "legacyImage": null
+    },
+    {
+      "key": "ceramic-mug",
+      "name": "磨砂陶瓷马克杯",
+      "category": "drinkware",
+      "description": "圆润杯口与宽握把，适合日常桌面饮用。",
+      "image": "drinkware/qivo-ceramic-mug.webp",
+      "alt": "浅灰背景上的磨砂陶瓷马克杯",
+      "status": 1,
+      "definitions": [
+        {
+          "id": "capacity",
+          "name": "容量",
+          "values": [
+            {
+              "id": "small",
+              "name": "300 毫升"
+            },
+            {
+              "id": "large",
+              "name": "400 毫升"
+            }
+          ]
+        }
+      ],
+      "skus": [
+        {
+          "suffix": "SMALL",
+          "selections": [
+            {
+              "specId": "capacity",
+              "valueId": "small"
+            }
+          ],
+          "price": "49.00",
+          "stock": 34,
+          "status": "ENABLED"
+        },
+        {
+          "suffix": "LARGE",
+          "selections": [
+            {
+              "specId": "capacity",
+              "valueId": "large"
+            }
+          ],
+          "price": "59.00",
+          "stock": 34,
+          "status": "ENABLED"
+        }
+      ],
+      "aliases": [],
+      "legacyImage": null
+    },
+    {
+      "key": "glass-tumbler",
+      "name": "直身玻璃饮水杯",
+      "category": "drinkware",
+      "description": "透明直身杯壁，简洁造型适合日常饮水。",
+      "image": "drinkware/qivo-glass-tumbler.webp",
+      "alt": "浅灰背景上的直身玻璃饮水杯",
+      "status": 1,
+      "definitions": [],
+      "skus": [
+        {
+          "suffix": "DEFAULT",
+          "selections": [],
+          "price": "29.00",
+          "stock": 45,
+          "status": "ENABLED"
+        }
+      ],
+      "aliases": [],
+      "legacyImage": null
+    },
+    {
+      "key": "travel-coffee-cup",
+      "name": "随行咖啡杯",
+      "category": "drinkware",
+      "description": "带盖杯身与防滑握持区域，方便日常随行。",
+      "image": "drinkware/qivo-travel-coffee-cup.webp",
+      "alt": "浅灰背景上的随行咖啡杯",
+      "status": 1,
+      "definitions": [
+        {
+          "id": "capacity",
+          "name": "容量",
+          "values": [
+            {
+              "id": "small",
+              "name": "350 毫升"
+            },
+            {
+              "id": "large",
+              "name": "450 毫升"
+            }
+          ]
+        }
+      ],
+      "skus": [
+        {
+          "suffix": "SMALL",
+          "selections": [
+            {
+              "specId": "capacity",
+              "valueId": "small"
+            }
+          ],
+          "price": "79.00",
+          "stock": 28,
+          "status": "ENABLED"
+        },
+        {
+          "suffix": "LARGE",
+          "selections": [
+            {
+              "specId": "capacity",
+              "valueId": "large"
+            }
+          ],
+          "price": "89.00",
+          "stock": 28,
+          "status": "ENABLED"
+        }
+      ],
+      "aliases": [],
+      "legacyImage": null
+    },
+    {
+      "key": "glass-carafe",
+      "name": "玻璃冷水壶",
+      "category": "drinkware",
+      "description": "细长壶嘴配简洁握把，适合桌面分饮。",
+      "image": "drinkware/qivo-glass-carafe.webp",
+      "alt": "浅灰背景上的玻璃冷水壶",
+      "status": 1,
+      "definitions": [],
+      "skus": [
+        {
+          "suffix": "DEFAULT",
+          "selections": [],
+          "price": "89.00",
+          "stock": 20,
+          "status": "ENABLED"
+        }
+      ],
+      "aliases": [],
+      "legacyImage": null
+    },
+    {
+      "key": "sports-water-bottle",
+      "name": "轻量运动水杯",
+      "category": "drinkware",
+      "description": "轻量杯身搭配提环盖，便于外出携带。",
+      "image": "drinkware/qivo-sports-water-bottle.webp",
+      "alt": "浅灰背景上的轻量运动水杯",
+      "status": 1,
+      "definitions": [],
+      "skus": [
+        {
+          "suffix": "DEFAULT",
+          "selections": [],
+          "price": "59.00",
+          "stock": 0,
+          "status": "ENABLED"
+        }
+      ],
+      "aliases": [],
+      "legacyImage": null
+    },
+    {
+      "key": "espresso-cup-set",
+      "name": "陶瓷浓缩咖啡杯组",
+      "category": "drinkware",
+      "description": "小容量杯碟成组摆放，适合咖啡时间。",
+      "image": "drinkware/qivo-espresso-cup-set.webp",
+      "alt": "浅灰背景上的陶瓷浓缩咖啡杯组",
+      "status": 0,
+      "definitions": [],
+      "skus": [
+        {
+          "suffix": "DEFAULT",
+          "selections": [],
+          "price": "99.00",
+          "stock": 16,
+          "status": "ENABLED"
+        }
+      ],
+      "aliases": [],
+      "legacyImage": null
+    },
+    {
+      "key": "metal-pen-cup",
+      "name": "金属圆筒笔筒",
+      "category": "storage",
+      "description": "圆筒开口集中收纳笔具，保持常用物件随手可取。",
+      "image": "storage/qivo-metal-pen-cup.webp",
+      "alt": "浅灰背景上的金属圆筒笔筒",
+      "status": 1,
+      "definitions": [
+        {
+          "id": "color",
+          "name": "颜色",
+          "values": [
+            {
+              "id": "gray",
+              "name": "石墨灰"
+            },
+            {
+              "id": "silver",
+              "name": "银白"
+            }
+          ]
+        }
+      ],
+      "skus": [
+        {
+          "suffix": "GRAY",
+          "selections": [
+            {
+              "specId": "color",
+              "valueId": "gray"
+            }
+          ],
+          "price": "39.00",
+          "stock": 30,
+          "status": "ENABLED"
+        },
+        {
+          "suffix": "SILVER",
+          "selections": [
+            {
+              "specId": "color",
+              "valueId": "silver"
+            }
+          ],
+          "price": "49.00",
+          "stock": 30,
+          "status": "ENABLED"
+        }
+      ],
+      "aliases": [],
+      "legacyImage": null
+    },
+    {
+      "key": "felt-tray",
+      "name": "毛毡桌面托盘",
+      "category": "storage",
+      "description": "柔软毡面收纳钥匙、耳机与桌面零碎小物。",
+      "image": "storage/qivo-felt-tray.webp",
+      "alt": "浅灰背景上的毛毡桌面托盘",
+      "status": 1,
+      "definitions": [
+        {
+          "id": "size",
+          "name": "尺寸",
+          "values": [
+            {
+              "id": "standard",
+              "name": "标准款"
+            },
+            {
+              "id": "large",
+              "name": "加大款"
+            }
+          ]
+        }
+      ],
+      "skus": [
+        {
+          "suffix": "STANDARD",
+          "selections": [
+            {
+              "specId": "size",
+              "valueId": "standard"
+            }
+          ],
+          "price": "45.00",
+          "stock": 24,
+          "status": "ENABLED"
+        },
+        {
+          "suffix": "LARGE",
+          "selections": [
+            {
+              "specId": "size",
+              "valueId": "large"
+            }
+          ],
+          "price": "55.00",
+          "stock": 24,
+          "status": "ENABLED"
+        }
+      ],
+      "aliases": [],
+      "legacyImage": null
+    },
+    {
+      "key": "drawer-organizer",
+      "name": "透明抽屉分隔盒",
+      "category": "storage",
+      "description": "透明盒身便于查看内容，多格结构适合分类摆放。",
+      "image": "storage/qivo-drawer-organizer.webp",
+      "alt": "浅灰背景上的透明抽屉分隔盒",
+      "status": 1,
+      "definitions": [],
+      "skus": [
+        {
+          "suffix": "DEFAULT",
+          "selections": [],
+          "price": "49.00",
+          "stock": 36,
+          "status": "ENABLED"
+        }
+      ],
+      "aliases": [],
+      "legacyImage": null
+    },
+    {
+      "key": "wood-document-tray",
+      "name": "木质文件托盘",
+      "category": "storage",
+      "description": "平整托盘集中摆放纸张与笔记，便于桌面归整。",
+      "image": "storage/qivo-wood-document-tray.webp",
+      "alt": "浅灰背景上的木质文件托盘",
+      "status": 1,
+      "definitions": [],
+      "skus": [
+        {
+          "suffix": "DEFAULT",
+          "selections": [],
+          "price": "79.00",
+          "stock": 22,
+          "status": "ENABLED"
+        }
+      ],
+      "aliases": [],
+      "legacyImage": null
+    },
+    {
+      "key": "cable-storage-box",
+      "name": "桌面电线收纳盒",
+      "category": "storage",
+      "description": "带出线口的盖式盒身，用于整理插排和线材。",
+      "image": "storage/qivo-cable-storage-box.webp",
+      "alt": "浅灰背景上的桌面电线收纳盒",
+      "status": 1,
+      "definitions": [
+        {
+          "id": "size",
+          "name": "尺寸",
+          "values": [
+            {
+              "id": "standard",
+              "name": "标准款"
+            },
+            {
+              "id": "large",
+              "name": "加大款"
+            }
+          ]
+        }
+      ],
+      "skus": [
+        {
+          "suffix": "STANDARD",
+          "selections": [
+            {
+              "specId": "size",
+              "valueId": "standard"
+            }
+          ],
+          "price": "59.00",
+          "stock": 0,
+          "status": "ENABLED"
+        },
+        {
+          "suffix": "LARGE",
+          "selections": [
+            {
+              "specId": "size",
+              "valueId": "large"
+            }
+          ],
+          "price": "69.00",
+          "stock": 0,
+          "status": "ENABLED"
+        }
+      ],
+      "aliases": [],
+      "legacyImage": null
+    },
+    {
+      "key": "slim-bookends",
+      "name": "薄型金属书立",
+      "category": "storage",
+      "description": "成对书立支撑常用书册，薄底板节省桌面空间。",
+      "image": "storage/qivo-slim-bookends.webp",
+      "alt": "浅灰背景上的薄型金属书立",
+      "status": 0,
+      "definitions": [],
+      "skus": [
+        {
+          "suffix": "DEFAULT",
+          "selections": [],
+          "price": "35.00",
+          "stock": 28,
+          "status": "ENABLED"
+        }
+      ],
+      "aliases": [],
+      "legacyImage": null
+    },
+    {
+      "key": "monitor-light-bar",
+      "name": "屏幕挂灯",
+      "category": "lighting",
+      "description": "横向灯体配悬挂支架，适合显示器上方摆放。",
+      "image": "lighting/qivo-monitor-light-bar.webp",
+      "alt": "浅灰背景上的屏幕挂灯",
+      "status": 1,
+      "definitions": [
+        {
+          "id": "finish",
+          "name": "外观",
+          "values": [
+            {
+              "id": "black",
+              "name": "曜黑"
+            },
+            {
+              "id": "silver",
+              "name": "银白"
+            }
+          ]
+        }
+      ],
+      "skus": [
+        {
+          "suffix": "BLACK",
+          "selections": [
+            {
+              "specId": "finish",
+              "valueId": "black"
+            }
+          ],
+          "price": "199.00",
+          "stock": 18,
+          "status": "ENABLED"
+        },
+        {
+          "suffix": "SILVER",
+          "selections": [
+            {
+              "specId": "finish",
+              "valueId": "silver"
+            }
+          ],
+          "price": "209.00",
+          "stock": 18,
+          "status": "ENABLED"
+        }
+      ],
+      "aliases": [],
+      "legacyImage": null
+    },
+    {
+      "key": "mushroom-table-lamp",
+      "name": "蘑菇造型桌灯",
+      "category": "lighting",
+      "description": "圆润灯罩搭配稳固灯座，适合床头与边桌。",
+      "image": "lighting/qivo-mushroom-table-lamp.webp",
+      "alt": "浅灰背景上的蘑菇造型桌灯",
+      "status": 1,
+      "definitions": [
+        {
+          "id": "color",
+          "name": "颜色",
+          "values": [
+            {
+              "id": "cream",
+              "name": "奶白"
+            },
+            {
+              "id": "orange",
+              "name": "陶橙"
+            }
+          ]
+        }
+      ],
+      "skus": [
+        {
+          "suffix": "CREAM",
+          "selections": [
+            {
+              "specId": "color",
+              "valueId": "cream"
+            }
+          ],
+          "price": "159.00",
+          "stock": 20,
+          "status": "ENABLED"
+        },
+        {
+          "suffix": "ORANGE",
+          "selections": [
+            {
+              "specId": "color",
+              "valueId": "orange"
+            }
+          ],
+          "price": "169.00",
+          "stock": 20,
+          "status": "ENABLED"
+        }
+      ],
+      "aliases": [],
+      "legacyImage": null
+    },
+    {
+      "key": "gooseneck-reading-lamp",
+      "name": "软管阅读台灯",
+      "category": "lighting",
+      "description": "可弯曲灯颈便于调整方向，适合桌面阅读。",
+      "image": "lighting/qivo-gooseneck-reading-lamp.webp",
+      "alt": "浅灰背景上的软管阅读台灯",
+      "status": 1,
+      "definitions": [],
+      "skus": [
+        {
+          "suffix": "DEFAULT",
+          "selections": [],
+          "price": "89.00",
+          "stock": 30,
+          "status": "ENABLED"
+        }
+      ],
+      "aliases": [],
+      "legacyImage": null
+    },
+    {
+      "key": "portable-night-light",
+      "name": "便携小夜灯",
+      "category": "lighting",
+      "description": "紧凑灯身与提手，便于在不同空间移动摆放。",
+      "image": "lighting/qivo-portable-night-light.webp",
+      "alt": "浅灰背景上的便携小夜灯",
+      "status": 1,
+      "definitions": [
+        {
+          "id": "color",
+          "name": "颜色",
+          "values": [
+            {
+              "id": "white",
+              "name": "米白"
+            },
+            {
+              "id": "blue",
+              "name": "雾蓝"
+            }
+          ]
+        }
+      ],
+      "skus": [
+        {
+          "suffix": "WHITE",
+          "selections": [
+            {
+              "specId": "color",
+              "valueId": "white"
+            }
+          ],
+          "price": "79.00",
+          "stock": 26,
+          "status": "ENABLED"
+        },
+        {
+          "suffix": "BLUE",
+          "selections": [
+            {
+              "specId": "color",
+              "valueId": "blue"
+            }
+          ],
+          "price": "89.00",
+          "stock": 26,
+          "status": "ENABLED"
+        }
+      ],
+      "aliases": [],
+      "legacyImage": null
+    },
+    {
+      "key": "clip-reading-lamp",
+      "name": "夹式阅读灯",
+      "category": "lighting",
+      "description": "夹式底座便于固定于桌边，细长灯颈可调整方向。",
+      "image": "lighting/qivo-clip-reading-lamp.webp",
+      "alt": "浅灰背景上的夹式阅读灯",
+      "status": 1,
+      "definitions": [],
+      "skus": [
+        {
+          "suffix": "DEFAULT",
+          "selections": [],
+          "price": "69.00",
+          "stock": 25,
+          "status": "ENABLED"
+        }
+      ],
+      "aliases": [],
+      "legacyImage": null
+    },
+    {
+      "key": "linear-desk-lamp",
+      "name": "长条护眼桌灯",
+      "category": "lighting",
+      "description": "细长横向灯头与简洁灯臂，适合宽桌面摆放。",
+      "image": "lighting/qivo-linear-desk-lamp.webp",
+      "alt": "浅灰背景上的长条护眼桌灯",
+      "status": 1,
+      "definitions": [],
+      "skus": [
+        {
+          "suffix": "DEFAULT",
+          "selections": [],
+          "price": "179.00",
+          "stock": 16,
+          "status": "ENABLED"
+        }
+      ],
+      "aliases": [],
+      "legacyImage": null
+    },
+    {
+      "key": "wall-reading-lamp",
+      "name": "壁挂阅读灯",
+      "category": "lighting",
+      "description": "紧凑壁座与可调整灯头，适合床头定向照明。",
+      "image": "lighting/qivo-wall-reading-lamp.webp",
+      "alt": "浅灰背景上的壁挂阅读灯",
+      "status": 1,
+      "definitions": [],
+      "skus": [
+        {
+          "suffix": "DEFAULT",
+          "selections": [],
+          "price": "129.00",
+          "stock": 0,
+          "status": "ENABLED"
+        }
+      ],
+      "aliases": [],
+      "legacyImage": null
+    }
+  ]
+}

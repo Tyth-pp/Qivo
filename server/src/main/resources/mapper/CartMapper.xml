@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.qivo.mapper.CartMapper">
+
+    <select id="selectByUserId" resultType="com.qivo.entity.Cart">
+        SELECT * FROM cart WHERE user_id = #{userId} ORDER BY create_time DESC
+    </select>
+
+    <select id="selectCheckedByUserId" resultType="com.qivo.entity.Cart">
+        SELECT * FROM cart WHERE user_id = #{userId} AND checked = 1 ORDER BY create_time DESC
+    </select>
+
+    <insert id="upsert" parameterType="com.qivo.entity.Cart">
+      INSERT INTO cart(user_id,product_id,sku_id,quantity,checked,create_time,update_time)
+      VALUES(#{userId},#{productId},#{skuId},#{quantity},1,NOW(),NOW())
+      ON DUPLICATE KEY UPDATE quantity=quantity+VALUES(quantity),checked=1,update_time=NOW()
+    </insert>
+
+    <update id="updateQuantity">
+        UPDATE cart SET quantity = #{quantity}, update_time = NOW() WHERE id = #{id} AND user_id = #{userId}
+    </update>
+
+    <update id="updateChecked">
+        UPDATE cart SET checked = #{checked}, update_time = NOW() WHERE id = #{id} AND user_id = #{userId}
+    </update>
+
+    <delete id="deleteById">
+        DELETE FROM cart WHERE id = #{id} AND user_id = #{userId}
+    </delete>
+
+</mapper>

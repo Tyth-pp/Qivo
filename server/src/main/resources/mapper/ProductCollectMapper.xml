@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.qivo.mapper.ProductCollectMapper">
+
+    <select id="selectByUserId" resultType="com.qivo.entity.ProductCollect">
+        SELECT * FROM product_collect WHERE user_id = #{userId} ORDER BY create_time DESC
+    </select>
+
+    <select id="exists" resultType="int">
+        SELECT COUNT(*) FROM product_collect WHERE user_id = #{userId} AND product_id = #{productId}
+    </select>
+
+    <insert id="insert">
+        INSERT INTO product_collect (user_id, product_id, create_time) VALUES (#{userId}, #{productId}, NOW())
+    </insert>
+
+    <delete id="delete">
+        DELETE FROM product_collect WHERE user_id = #{userId} AND product_id = #{productId}
+    </delete>
+
+</mapper>

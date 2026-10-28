@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.qivo.mapper.RoleMapper">
+
+    <select id="selectAll" resultType="com.qivo.entity.Role">
+        SELECT r.*,(SELECT COUNT(DISTINCT a.id) FROM admin a
+            JOIN admin_role ar ON ar.admin_id=a.id WHERE ar.role_id=r.id) AS member_count
+        FROM role r ORDER BY r.id
+    </select>
+
+    <select id="selectById" resultType="com.qivo.entity.Role">
+        SELECT * FROM role WHERE id = #{id}
+    </select>
+
+    <insert id="insert" parameterType="com.qivo.entity.Role" useGeneratedKeys="true" keyProperty="id">
+        INSERT INTO role (name, code, description, version, create_time, update_time)
+        VALUES (#{name}, #{code}, #{description}, 0, NOW(), NOW())
+    </insert>
+
+    <update id="update" parameterType="com.qivo.entity.Role">
+        UPDATE role
+        <set>
+            <if test="name != null">name = #{name},</if>
+            <if test="code != null">code = #{code},</if>
+            <if test="description != null">description = #{description},</if>
+            update_time = NOW()
+        </set>
+        WHERE id = #{id}
+    </update>
+
+    <delete id="deleteById">
+        DELETE FROM role WHERE id = #{id}
+    </delete>
+
+    <select id="selectByAdminId" resultType="com.qivo.entity.Role">
+        SELECT r.* FROM role r INNER JOIN admin_role ar ON r.id = ar.role_id
+        WHERE ar.admin_id = #{adminId}
+    </select>
+
+</mapper>
